@@ -1,0 +1,89 @@
+---
+title: Windows Server 2025 Administration
+description: 
+published: true
+date: 2025-05-16T20:36:08.395Z
+tags: windows server
+editor: markdown
+dateCreated: 2025-05-16T10:33:58.170Z
+---
+
+# Windows Server 2025
+
+## Contents
+- [Overview](#Overview-1)
+- [Installation & Configuration](#Installation-&-Configuration-2)
+- [Active Directory AD DS](#Active-Directory-AD-DS-3)
+- [Networking Services](#Networking-Services-4)
+- [File and Storage Services](#File-and-Storage-Services-5)
+- [Server Security](#Server-Security-6)
+- [Server Virtualization and Containers](#Server-Virtualization-and-Containers-7)
+- [Automation and Scripting](#Automation-and-Scripting-8)
+- [Backup and Disaster Recovery](#Backup-and-Disaster-Recovery-9)
+- [Monitoring and Performance](#Monitoring-and-Performance-10)
+- [Troubleshooting and Mainteance](#Troubleshooting-and-Maintenance-11)
+
+
+## Overview
+- What is Windows Server 2025
+
+> Windows Server 2025 is the latest version of Microsoft's server operating system, officially released on November 1, 20-24.  It builds on previous versions with enhanced security, improved performance, and better cloud integration.
+{.is-info}
+
+[Windows Server 2025](https://www.microsoft.com/en-us/windows-server/blog/2024/11/04/windows-server-2025-now-generally-available-with-advanced-security-improved-performance-and-cloud-agility/)
+
+- New Features and enhancements
+
+    - **Advanced Security: Includes Active Directory Improvements, SMB over QUIC, and Delegate Managed Service Accounts (dMSA) for better authentication.**
+    - **Hybrid Cloud Capabilities: Supports hotpatching via Azure Arc, reducing downtime for security updates.**
+    - **Performance Enhancements:  Faster storage options, file compression, and Bluetooth support.**
+    - **Updated User Experience:  Features a Windows 11-style desktop, Wi-FI support, and modern Task Manager.**
+    - **System Requirements: Requires a 1.4 GHz 64-bit processor, 512 MB RAM (Server Core) or 2 GB RAM (Desktop Experience), and at least 32 GB storage.**
+    - **Windows Server 2025 is designed for on-premised, hybrid, and cloud environments**
+
+- Server roles and editions
+## Installation & Configuration
+- System requirements and hardware planning
+- Installation options (GUI, Core, Nano)
+- Post-installation configuration
+- Licensing and activation
+## Active Directory (AD DS)
+- Introduction to AD DS
+- Installing and Configuring Domain Controllers
+- Managing users, groups, and organizational units (OUs)
+- Group Policy Basics and Management
+## Networking Services
+- IP Addressing and DHCP
+- DNS server setup and management
+- Network policy and access services (NPS)
+- Remote Access (VPN, Direct Access)
+## File and Storage Services
+- File Server roles and features
+- NTFS and Permissions
+- Distributed Files System (DFS)
+- Storage Spaces and Disk Management
+## Server Security
+- Security baselines and hardening
+- Windows Firewall Configuration
+- Security auditng and monitoring
+- BitLocker encryption
+## Server Virtualization & Containers
+- Hyper-V overview and setup
+- Managing virtual machines
+- Windows Containers basics
+## Automation & Scripting
+- PowerShell fundamentals
+- Common PowerShell commands for server administration
+- Scheduled Tasks and Automation workflows
+## Backup & Disaster Recovery
+- Window Server Backup Features
+- Recovery options and best practices
+- Failover Clustering basics
+## Monitoring & Performance
+- Performance monitoring tools
+- Event Viewer and logs
+- Resource optimization
+## Troubleshooting & Maintenance
+- Common issues and resolution steps
+- Patch management and updates
+- System health checks
