@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-17T13:18:00.278Z
+date: 2025-05-17T13:19:48.819Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -58,12 +58,16 @@ dateCreated: 2025-05-16T10:33:58.170Z
 > **IPv4 Addressing consists of a Total of 32 Bits/4 Octets, 8 Bits/Octect**
 >    **(Reference IETF RFC 791)**
 > 
->          IPv4 Classes  IPv4 Range  						IPv4 Subnetting
-- >          A    →     1-127                   255.0.0.0
-- >          B    →     128-191                 255.255.0.0
-- >          C    →     192-223                 255.255.255.0
-- >          D    →     224-239
-- >          E    →     240-255
+>     IPv4 Classes   IPv4 Range             IPv4 Subnetting
+>           A    →     1-127                   255.0.0.0
+>           B    →     128-191                 255.255.0.0
+>           C    →     192-223                 255.255.255.0
+>           D    →     224-239
+>           E    →     240-255
+{.is-info}
+
+
+
 
 
 
