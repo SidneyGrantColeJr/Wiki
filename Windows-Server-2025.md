@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T21:50:23.076Z
+date: 2025-05-18T21:52:17.936Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -261,8 +261,9 @@ dateCreated: 2025-05-16T10:33:58.170Z
 5.	On the Specify share name page, in the Share name text box, enter Data and then select Next.
 [share_5.png](/configure-iscsi-storage/share_5.png)
 6.	On the Configure share settings page, select the Enable access-based enumeration checkbox, and then select Next.
-![share_-_6.png](/configure-iscsi-storage/share_-_6.png){.align-left}
+![share_-_6.png](/configure-iscsi-storage/share_-_6.png){.align-left}!
 7.	On the Specify permissions to control access page, select Customize permissions.
+[share_-_7.png](/configure-iscsi-storage/share_-_7.png){.align-left}
 8.	In the Advanced Security Settings for Data window, on the Permissions tab, select Add.
 9.	In the Permission Entry for Data window, select, Select a principal, enter Domain Users and then select Ok.
 10.	In the Basic permissions area, select Modify checkbox and then select Ok.
