@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-17T13:55:33.193Z
+date: 2025-05-18T13:37:42.670Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -16,6 +16,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - [Active Directory AD DS](#Active-Directory-AD-DS-3)
 - [Networking Services](#Networking-Services-4)
 - [File and Storage Services](#File-and-Storage-Services-5)
+  - [Configure iSCSI Storage with MPIO](#Configure-iSCSI-Storage-with-MPIO)
 - [Server Security](#Server-Security-6)
 - [Server Virtualization and Containers](#Server-Virtualization-and-Containers-7)
 - [Automation and Scripting](#Automation-and-Scripting-8)
@@ -85,6 +86,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - NTFS and Permissions
 - Distributed Files System (DFS)
 - Storage Spaces and Disk Management
+- Configure iSCSI Storage with MPIO
 ## Server Security
 - Security baselines and hardening
 - Windows Firewall Configuration
