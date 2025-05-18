@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T14:47:53.189Z
+date: 2025-05-18T14:53:51.239Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -250,23 +250,41 @@ dateCreated: 2025-05-16T10:33:58.170Z
 **Create an NFS Share on iSCSI Storage**
 
 1.	On the Target Server, in the Shares area, select Tasks and then select New Share.
+![nfs_share_-_1.png](/configure-iscsi-storage/nfs_share_-_1.png){.align-left}
 2.	In the New Share Wizard, on the Select profile for this share page, in the File share profile box, select NFS Share-Quick and then select Next.
+![nfs_share_-2.png](/configure-iscsi-storage/nfs_share_-2.png){.align-left}
 3.	On the Select the server and path for this share page, select the Target Server, select by volume, select K, and then select Next.
+![nfs_share_-_3.png](/configure-iscsi-storage/nfs_share_-_3.png){.align-left}
 4.	On the Specify share name page, in the Share name text box, enter LinuxData and then select Next.
+![nfs_share_-_4.png](/configure-iscsi-storage/nfs_share_-_4.png){.align-left}
 5.	On the Specify authentication methods page, select Kerberos v5 authentication and then select Next.
+![nfs_share_-_5.png](/configure-iscsi-storage/nfs_share_-_5.png){.align-left}
 6.	On the Specify the share permissions page, select Add.
+![nfs_share_-_6.png](/configure-iscsi-storage/nfs_share_-_6.png){.align-left}
 7.	In the Add Permissions window select All Machines.
+![nfs_share_-_7.png](/configure-iscsi-storage/nfs_share_-_7.png){.align-left}
 8.	In the Share Permissions box, select Read/Write and then select Add.
+![nfs_share_-_8.png](/configure-iscsi-storage/nfs_share_-_8.png){.align-left}
 9.	On the Specify the share permissions page, select Next.
+![nfs_share_-_9.png](/configure-iscsi-storage/nfs_share_-_9.png){.align-left}
 10.	On the Specify permissions to control access page, select Customize Permissions, and select Next.
+![nfs_share_-_10.png](/configure-iscsi-storage/nfs_share_-_10.png){.align-left}
 11.	On the Advanced Security Settings pane, select Add.
+![nfs_share_-_11.png](/configure-iscsi-storage/nfs_share_-_11.png){.align-left}
 12.	In the Permission Entry pane, select, Select a principal.
+![nfs_share_-_12.png](/configure-iscsi-storage/nfs_share_-_12.png){.align-left}
 13.	In the Permission Entry pane, enter Domain Users and then select Ok.
+![nfs_share_-_13.png](/configure-iscsi-storage/nfs_share_-_13.png){.align-left}
 14.	In the Permission Entry pane, under Basic permissions, select Modify, and select Next.
+![nfs_share_-_14.png](/configure-iscsi-storage/nfs_share_-_14.png){.align-left}
 15.	In the Advanced Security Settings, select Ok.
+![nfs_share_-_15.png](/configure-iscsi-storage/nfs_share_-_15.png){.align-left}
 16.	In the Specify permissions to control access pane, select Next.
+![nfs_share_-_16.png](/configure-iscsi-storage/nfs_share_-_16.png){.align-left}
 17.	On the Confirm selections page, select Create.
+![nfs_share_-_17.png](/configure-iscsi-storage/nfs_share_-_17.png){.align-left}
 18.	On the View results page, select Close.
+![nfs_share_-_18.png](/configure-iscsi-storage/nfs_share_-_18.png){.align-left}
 
 **Map iSCSI Share Folder**
 
