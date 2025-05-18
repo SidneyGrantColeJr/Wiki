@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T14:32:33.582Z
+date: 2025-05-18T14:33:49.041Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -174,6 +174,97 @@ dateCreated: 2025-05-16T10:33:58.170Z
 18.	In the Server Manager, on the menu bar, select Tools and then select MPIO.
 19.	In the MPIO Properties dialog box, on the MPIO Devices tab, notice that Devices Hardware ID has been added to the list.
 20.	In the MPIO Properties dialog box select Ok to close the dialog box.
+
+**Connect to the iSCSI Target**
+
+1.	On the client machine connecting to the Target machine, in the Server Manager, on the menu bar, select Tools and then select iSCSI Initiator.
+2.	In the iSCSI Initiator Properties dialog box, on the Targets tab, select Disconnect.
+3.	In the Disconnect From All Sessions dialog box, select Yes.
+4.	In the iSCSI Initiator Properties dialog box, on the Targets tab, select Connect.
+5.	In the Connect to Target dialog box, select the Enable multi-path checkbox.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
+6.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
+7.	In the Initiator IP list, select your Initiator IP.
+8.	In the Target IP list, select your Target IP.
+9.	In the Advanced Settings dialog box, select Ok.
+10.	In the Connect to Target dialog box, select Ok.
+11.	In the ISCSI Initiator Properties dialog box, on the Targets tab, select Connect.
+12.	In the Connect to Target dialog box, select Enable multi-path.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
+13.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
+14.	In the Initiator IP list, select your Initiator IP Address.
+15.	In the Target portal IP list, select your Target IP Address.
+16.	In the Advanced Settings dialog box, select Ok.
+17.	In the Connect Target dialog box, select Ok.
+18.	In the iSCSI Initiator Properties dialog box, on the Volumes and Devices tab, select Auto Configure.
+19.	In the iSCSI Initiator Properties dialog box, on the Targets tab, in the Targets list, select your iqn and then select Devices.
+20.	In the Devices dialog box, select MPIO.
+21.	Verify that in the Load balance policy, Round Robin is selected.
+22.	Under this device has the following paths, notice that 2 paths are listed.  Select the first path and then select Details.
+23.	Note the IP Address of the Source and Target portals and then select Ok.
+24.	Select the second path and then select Details.
+25.	Verify that this path is using another network and then select Ok.
+26.	In the Device Details dialog box select Ok.
+27.	In the Devices dialog box select Ok.
+28.	In the iSCSI Initiator Properties dialog box select Ok.
+
+**Initialize the iSCSI disks**
+
+1.	On the Target Server, select File and Storage Services and then in the left pan select Disks.
+2.	In the iSCSI pane, right click or access the context menu for an offline disk with a bus type of iSCSI and then select Assign iSCSI Virtual Disk.
+3.	In the Assign iSCSI target pane, select Existing iSCSI target, and select Next.
+4.	In the Confirm Selections pane, select Assign.
+5.	In the View results pane, select Close.
+
+**Configuring and managing the share infrastructure**
+
+1.	On the Server with the Initiator, select File and Storage Services, and then select Shares.
+2.	In the Shares area, select Tasks and then select New Share.
+3.	In the New Share Wizard, on the Select the profile for this share page, in the File share profile box, select SMB Share – Quick and then select Next.
+4.	On the Select the server and path for this share page, select the Initiator computer.  Select by volume, select the letter and then select Next.
+5.	On the Specify share name page, in the Share name text box, enter Data and then select Next.
+6.	On the Configure share settings page, select the Enable access-based enumeration checkbox, and then select Next.
+7.	On the Specify permissions to control access page, select Customize permissions.
+8.	In the Advanced Security Settings for Data window, on the Permissions tab, select Add.
+9.	In the Permission Entry for Data window, select, Select a principal, enter Domain Users and then select Ok.
+10.	In the Basic permissions area, select Modify checkbox and then select Ok.
+11.	In the Advanced Security Settings for Data window select Ok.
+12.	On the Specify permissions to control access page, select Next.
+13.	On the Confirm selections page, select Create.
+14.	When the share creating is complete, select Close.
+
+**Create an NFS Share on iSCSI Storage**
+
+1.	On the Target Server, in the Shares area, select Tasks and then select New Share.
+2.	In the New Share Wizard, on the Select profile for this share page, in the File share profile box, select NFS Share-Quick and then select Next.
+3.	On the Select the server and path for this share page, select the Target Server, select by volume, select K, and then select Next.
+4.	On the Specify share name page, in the Share name text box, enter LinuxData and then select Next.
+5.	On the Specify authentication methods page, select Kerberos v5 authentication and then select Next.
+6.	On the Specify the share permissions page, select Add.
+7.	In the Add Permissions window select All Machines.
+8.	In the Share Permissions box, select Read/Write and then select Add.
+9.	On the Specify the share permissions page, select Next.
+10.	On the Specify permissions to control access page, select Customize Permissions, and select Next.
+11.	On the Advanced Security Settings pane, select Add.
+12.	In the Permission Entry pane, select, Select a principal.
+13.	In the Permission Entry pane, enter Domain Users and then select Ok.
+14.	In the Permission Entry pane, under Basic permissions, select Modify, and select Next.
+15.	In the Advanced Security Settings, select Ok.
+16.	In the Specify permissions to control access pane, select Next.
+17.	On the Confirm selections page, select Create.
+18.	On the View results page, select Close.
+
+**Map iSCSI Share Folder**
+
+1.	Select your File Folder, Right Click This PC, and select Map Network Drive.
+2.	In Map Network Drive, select Drive Letter, Under Folder, type in your server name, and select Browse.  Select Folder you wish to map.
+
+**Disable the legacy SMB1 protocol**
+1.	In Windows PowerShell, Set-SmbServerConfiguration -AuditSmb1Access $true
+2.	For the confirmation message, select Yes.
+3.	Enter the following, Get-SmbServerConfiguration | FL enable*
+4.	Enter the following, Set-SmbServerConfiguration -EnableSMB1Protocol $false
+5.	At the confirmation message, select Yes
+6.	Enter the following, Remove-WindowsFeature FS-SMB1
+
 
 ## Server Security
 - Security baselines and hardening
