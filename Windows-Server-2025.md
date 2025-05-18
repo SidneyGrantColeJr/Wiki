@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T21:52:17.936Z
+date: 2025-05-18T21:55:40.842Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -265,6 +265,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 7.	On the Specify permissions to control access page, select Customize permissions.
 [share_-_7.png](/configure-iscsi-storage/share_-_7.png){.align-left}
 8.	In the Advanced Security Settings for Data window, on the Permissions tab, select Add.
+![share_-_8.png](/configure-iscsi-storage/share_-_8.png){.align-left}
 9.	In the Permission Entry for Data window, select, Select a principal, enter Domain Users and then select Ok.
 10.	In the Basic permissions area, select Modify checkbox and then select Ok.
 11.	In the Advanced Security Settings for Data window select Ok.
