@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T16:01:00.867Z
+date: 2025-05-18T16:09:45.434Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -214,27 +214,28 @@ dateCreated: 2025-05-16T10:33:58.170Z
 10.	In the ISCSI Initiator Properties dialog box, on the Targets tab, select Connect.
 ![slide_55.png](/configure-iscsi-storage/slide_55.png){.align-left}
 11.	In the Connect to Target dialog box, select Enable multi-path.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
-
+![slide_50_(1).png](/configure-iscsi-storage/slide_50_(1).png){.align-left}
 12.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
-
+![slide_51_-_1.png](/configure-iscsi-storage/slide_51_-_1.png){.align-left}
 13.	In the Initiator IP list, select your Initiator IP Address.
-
-14.	In the Target portal IP list, select your Target IP Address.
-
-15.	In the Advanced Settings dialog box, select Ok.
-
-16.	In the Connect Target dialog box, select Ok.
-17.	In the iSCSI Initiator Properties dialog box, on the Volumes and Devices tab, select Auto Configure.
-18.	In the iSCSI Initiator Properties dialog box, on the Targets tab, in the Targets list, select your iqn and then select Devices.
-19.	In the Devices dialog box, select MPIO.
-20.	Verify that in the Load balance policy, Round Robin is selected.
-21.	Under this device has the following paths, notice that 2 paths are listed.  Select the first path and then select Details.
-22.	Note the IP Address of the Source and Target portals and then select Ok.
-23.	Select the second path and then select Details.
-24.	Verify that this path is using another network and then select Ok.
-25.	In the Device Details dialog box select Ok.
-26.	In the Devices dialog box select Ok.
-27.	In the iSCSI Initiator Properties dialog box select Ok.
+![slide_52_-1.png](/configure-iscsi-storage/slide_52_-1.png){.align-left}
+14.	In the Target portal IP list, select your Target IP Address. In the Advanced Settings dialog box, select Ok.
+![slide_53_-1.png](/configure-iscsi-storage/slide_53_-1.png){.align-left}
+15.	In the Connect Target dialog box, select Ok.
+16.	In the iSCSI Initiator Properties dialog box, on the Volumes and Devices tab, select Auto Configure.
+17.	In the iSCSI Initiator Properties dialog box, on the Targets tab, in the Targets list, select your iqn and then select Devices.
+![slide_61.png](/configure-iscsi-storage/slide_61.png){.align-left}
+18.	In the Devices dialog box, select MPIO.
+![slide_60.png](/configure-iscsi-storage/slide_60.png){.align-left}
+19.	Verify that in the Load balance policy, Round Robin is selected.
+![slide_59.png](/configure-iscsi-storage/slide_59.png){.align-left}
+20.	Under this device has the following paths, notice that 2 paths are listed.  Select the first path and then select Details.
+21.	Note the IP Address of the Source and Target portals and then select Ok.
+22.	Select the second path and then select Details.
+23.	Verify that this path is using another network and then select Ok.
+24.	In the Device Details dialog box select Ok.
+25.	In the Devices dialog box select Ok.
+26.	In the iSCSI Initiator Properties dialog box select Ok.
 
 **Initialize the iSCSI disks**
 
