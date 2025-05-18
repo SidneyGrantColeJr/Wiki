@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T22:06:40.581Z
+date: 2025-05-18T22:38:26.327Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -86,6 +86,14 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - NTFS and Permissions
 - Distributed Files System (DFS)
 - Storage Spaces and Disk Management
+> There are 5 Main Types of Storage Available on Windows Server 2025
+> 	- **Basic Disk:**  The Default in Disk Management, Classic MBR/GPT Partitions. No software RAID.
+>   - **Dynamic Disk:** You can convert via Disk Management or with PowerShell. Adds OS-level RAID & spanning(striped, mirrored, RAID-5) without Storage Spaces.  There is a 2 TB limit on MBR.
+>   - **Storage Spaces Virtual Disk:** Pool of mixed drives.  Shown to the OS as a single virtual disk.
+>   - **Virtual Hard Disk(.vhd/.vhdx):** Hyper-V Manager, Disk Management.  A disk in a file for VMs, backups, or native boot.
+>   - **iSCSI Virtual Disk (Target Server):** File-back LUN you export over the network.  Appears to remote hosts as a raw SCSI disk
+{.is-info}
+
 - Configure iSCSI Storage with MPIO
 > iSCSI stands for Internet Small Computer System Interface.  iSCSI Storage is a way to share block-level storage over a standard IP Network. MPIO stands for Multipath I/O.  MPIO is a storage-fault-tolerance and load-balance feature that lets an operating system use two or more physical paths to reach the same block-storage device, in essence it offers redundancy.
 {.is-info}
