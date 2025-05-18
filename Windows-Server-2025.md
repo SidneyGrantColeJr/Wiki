@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T15:14:25.367Z
+date: 2025-05-18T15:19:25.097Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -225,10 +225,13 @@ dateCreated: 2025-05-16T10:33:58.170Z
 **Initialize the iSCSI disks**
 
 1.	On the Target Server, select File and Storage Services and then in the left pan select Disks.
+![initialize_iscsi_disks.png](/configure-iscsi-storage/initialize_iscsi_disks.png){.align-left}
 2.	In the iSCSI pane, right click or access the context menu for an offline disk with a bus type of iSCSI and then select Assign iSCSI Virtual Disk.
-3.	In the Assign iSCSI target pane, select Existing iSCSI target, and select Next.
-4.	In the Confirm Selections pane, select Assign.
-5.	In the View results pane, select Close.
+![initialize_iscsi_disks_-2.png](/configure-iscsi-storage/initialize_iscsi_disks_-2.png){.align-left}
+3.	In the Assign iSCSI target pane, select Existing iSCSI target, and select Next. In the Confirm Selections pane, select Assign.
+![initialize_iscsi_disks_-_3.png](/configure-iscsi-storage/initialize_iscsi_disks_-_3.png){.align-left}
+4.	In the View results pane, select Close.
+![initialize_iscsi_disks_-4.png](/configure-iscsi-storage/initialize_iscsi_disks_-4.png){.align-left}
 
 **Configuring and managing the share infrastructure**
 
