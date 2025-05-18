@@ -2,13 +2,13 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T16:13:37.205Z
+date: 2025-05-18T21:40:22.650Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
 ---
 
-# Windows Server 2025
+
 
 ## Contents
 - [Overview](#Overview-1)
@@ -251,6 +251,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 **Configuring and managing the share infrastructure**
 
 1.	On the Server with the Initiator, select File and Storage Services, and then select Shares.
+![share_-_1.png](/share_-_1.png){.align-left}# Windows Server 2025
 2.	In the Shares area, select Tasks and then select New Share.
 3.	In the New Share Wizard, on the Select the profile for this share page, in the File share profile box, select SMB Share – Quick and then select Next.
 
