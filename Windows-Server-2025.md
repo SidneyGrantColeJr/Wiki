@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T14:13:46.677Z
+date: 2025-05-18T14:14:47.062Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -100,7 +100,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![slide_3.png](/configure-iscsi-storage/slide_3.png){.align-left}
 4. On the Select destination server page, ensure that Select a server from the server pool is selected (Choose your Server), and then select Next.
 ![slide_4.png](/configure-iscsi-storage/slide_4.png){.align-left}
-5. On the Select Server Roles page, expand File and Storage Services, then expand File and iSCSI Services, then select iSCSI Target Server and then select Next. Select Add Features. Select Next.
+5. On the Select Server Roles page, expand File and Storage Services, then expand File and iSCSI Services, then select iSCSI Target Server and then select Next. Select Add Features. Select Next. This feature needs to be installed on both the Target and the Initiator.
 ![select_7.png](/configure-iscsi-storage/select_7.png){.align-left}
 6.  On the Select Features page, select Next.
 ![slide_7.png](/configure-iscsi-storage/slide_7.png){.align-left}
