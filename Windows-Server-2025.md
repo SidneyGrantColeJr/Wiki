@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T14:32:03.295Z
+date: 2025-05-18T14:32:33.582Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -152,6 +152,28 @@ dateCreated: 2025-05-16T10:33:58.170Z
 20.	On the View results page, wait until the virtual disk is created and then select Close.
 ![slide_29.png](/configure-iscsi-storage/slide_29.png){.align-left}
 
+**Configure MPIO**
+
+1.	In Server Manager, select Manage menu, and then select Add Roles and Features.
+2.	In the Add Roles and Features Wizard, on the Before you begin page, select Next.
+3.	On the Select Installation Type, page select Next.
+4.	On the Select Destination Server page, ensure that Select a Server from the Server Pool is selected and then select Next.
+5.	On the Select Server Roles page, select Next.
+6.	On the Select Features page, select Multipath I/O and then select Next.
+7.	On the Confirm Installation selections page, select Install.
+8.	When the installation is complete, select Close.
+9.	Restart the Server.
+10.	In Server Manager, select Tools and select iSCSI Initiator.
+11.	In the Microsoft iSCSI message box, select Yes.
+12.	In the iSCSI Initiator Properties dialog box, on the Targets Tab, in the Target text box, enter 192.168.4.180 (IP Address of your Target) and then select Quick Connect.
+13.	In the Quick Connect box, select Done.
+14.	In the iSCSI Initiator Properties dialog box, select Ok.
+15.	In the Server Manager, on the menu bar, select Tools, and then select MPIO.
+16.	In the MPIO Properties dialog box, on the Discover Multi-Paths Tab, select Add support for iSCSI devices and then select Add. Restart the Server.
+17.	Select Ok at the message prompt and then select Ok to close the MPIO Properties.
+18.	In the Server Manager, on the menu bar, select Tools and then select MPIO.
+19.	In the MPIO Properties dialog box, on the MPIO Devices tab, notice that Devices Hardware ID has been added to the list.
+20.	In the MPIO Properties dialog box select Ok to close the dialog box.
 
 ## Server Security
 - Security baselines and hardening
