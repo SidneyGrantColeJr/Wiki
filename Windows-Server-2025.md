@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T22:38:26.327Z
+date: 2025-05-18T22:38:59.773Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -91,7 +91,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 >   - **Dynamic Disk:** You can convert via Disk Management or with PowerShell. Adds OS-level RAID & spanning(striped, mirrored, RAID-5) without Storage Spaces.  There is a 2 TB limit on MBR.
 >   - **Storage Spaces Virtual Disk:** Pool of mixed drives.  Shown to the OS as a single virtual disk.
 >   - **Virtual Hard Disk(.vhd/.vhdx):** Hyper-V Manager, Disk Management.  A disk in a file for VMs, backups, or native boot.
->   - **iSCSI Virtual Disk (Target Server):** File-back LUN you export over the network.  Appears to remote hosts as a raw SCSI disk
+>   - **iSCSI Virtual Disk (Target Server):** File-back Logical Unit Number (LUN) you export over the network.  Appears to remote hosts as a raw SCSI disk
 {.is-info}
 
 - Configure iSCSI Storage with MPIO
