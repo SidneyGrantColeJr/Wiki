@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T13:44:39.833Z
+date: 2025-05-18T13:56:50.525Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -90,6 +90,17 @@ dateCreated: 2025-05-16T10:33:58.170Z
 > iSCSI stands for Internet Small Computer System Interface.  iSCSI Storage is a way to share block-level storage over a standard IP Network. MPIO stands for Multipath I/O.  MPIO is a storage-fault-tolerance and load-balance feature that lets an operating system use two or more physical paths to reach the same block-storage device, in essence it offers redundancy.
 {.is-info}
 
+Install iSCSI Feature
+
+1.  In Server Manager, select Manage menu and then select Add Roles and Features.
+![slide_1.png](/configure-iscsi-storage/slide_1.png){.align-left}
+2.  In the Add Roles and Features Wizard, on the Before you begin page, select Next.
+3. On the Select Installation type page, select Next. (Role-based or feature-based installation.
+4. On the Select destination server page, ensure that Select a server from the server pool is selected (Choose your Server), and then select Next.
+5. On the Select Server Roles page, expand File and Storage Services, then expand File and iSCSI Services, then select iSCSI Target Server and then select Next. Select Add Features. Select Next.
+6.  On the Select Features page, select Next.
+7. On the Confirm installation selections page, select Install.
+8. When the installation completes, select Close.
 
 ## Server Security
 - Security baselines and hardening
