@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T14:53:51.239Z
+date: 2025-05-18T14:59:04.644Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -263,8 +263,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![nfs_share_-_6.png](/configure-iscsi-storage/nfs_share_-_6.png){.align-left}
 7.	In the Add Permissions window select All Machines.
 ![nfs_share_-_7.png](/configure-iscsi-storage/nfs_share_-_7.png){.align-left}
-8.	In the Share Permissions box, select Read/Write and then select Add.
-![nfs_share_-_8.png](/configure-iscsi-storage/nfs_share_-_8.png){.align-left}
+8.	In the Share Permissions box, select Read/Write and then select Add. (No Screenshot Present)
 9.	On the Specify the share permissions page, select Next.
 ![nfs_share_-_9.png](/configure-iscsi-storage/nfs_share_-_9.png){.align-left}
 10.	On the Specify permissions to control access page, select Customize Permissions, and select Next.
