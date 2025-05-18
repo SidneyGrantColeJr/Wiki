@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T13:56:50.525Z
+date: 2025-05-18T14:04:53.992Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -95,8 +95,11 @@ Install iSCSI Feature
 1.  In Server Manager, select Manage menu and then select Add Roles and Features.
 ![slide_1.png](/configure-iscsi-storage/slide_1.png){.align-left}
 2.  In the Add Roles and Features Wizard, on the Before you begin page, select Next.
+![slide_2.png](/configure-iscsi-storage/slide_2.png){.align-left}
 3. On the Select Installation type page, select Next. (Role-based or feature-based installation.
+![slide_3.png](/configure-iscsi-storage/slide_3.png){.align-left}
 4. On the Select destination server page, ensure that Select a server from the server pool is selected (Choose your Server), and then select Next.
+![slide_4.png](/configure-iscsi-storage/slide_4.png){.align-left}
 5. On the Select Server Roles page, expand File and Storage Services, then expand File and iSCSI Services, then select iSCSI Target Server and then select Next. Select Add Features. Select Next.
 6.  On the Select Features page, select Next.
 7. On the Confirm installation selections page, select Install.
