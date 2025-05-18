@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T21:44:14.611Z
+date: 2025-05-18T21:46:24.624Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -255,8 +255,9 @@ dateCreated: 2025-05-16T10:33:58.170Z
 2.	In the Shares area, select Tasks and then select New Share.
 ![share_-2.png](/configure-iscsi-storage/share_-2.png){.align-left}
 3.	In the New Share Wizard, on the Select the profile for this share page, in the File share profile box, select SMB Share – Quick and then select Next.
-![share_-3_.png](/configure-iscsi-storage/share_-3_.png){.align-left}
+![share_-3_.png](/configure-iscsi-storage/share_-3_.png){.align-left}!
 4.	On the Select the server and path for this share page, select the Initiator computer.  Select by volume, select the letter and then select Next.
+[share_-_4.png](/configure-iscsi-storage/share_-_4.png){.align-left}
 5.	On the Specify share name page, in the Share name text box, enter Data and then select Next.
 6.	On the Configure share settings page, select the Enable access-based enumeration checkbox, and then select Next.
 7.	On the Specify permissions to control access page, select Customize permissions.
