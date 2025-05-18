@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T15:04:04.651Z
+date: 2025-05-18T15:06:56.159Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -278,12 +278,12 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![nfs_share_-_13.png](/configure-iscsi-storage/nfs_share_-_13.png){.align-left}
 15.	In the Advanced Security Settings, select Ok.
 ![nfs_share_-_14.png](/configure-iscsi-storage/nfs_share_-_14.png){.align-left}
-16.	In the Specify permissions to control access pane, select Next.
-![nfs_share_-_15.png](/configure-iscsi-storage/nfs_share_-_15.png){.align-left}
+16.	In the Specify permissions to control access pane, select Next. (No Screenshot Present)
 17.	On the Confirm selections page, select Create.
-![nfs_share_-_16.png](/configure-iscsi-storage/nfs_share_-_16.png){.align-left}
+![nfs_share_-_15.png](/configure-iscsi-storage/nfs_share_-_15.png){.align-left}
 18.	On the View results page, select Close.
-![nfs_share_-_17.png](/configure-iscsi-storage/nfs_share_-_17.png){.align-left}
+![nfs_share_-_16.png](/configure-iscsi-storage/nfs_share_-_16.png){.align-left}
+
 
 **Map iSCSI Share Folder**
 
