@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T21:55:40.842Z
+date: 2025-05-18T22:01:16.712Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -267,8 +267,11 @@ dateCreated: 2025-05-16T10:33:58.170Z
 8.	In the Advanced Security Settings for Data window, on the Permissions tab, select Add.
 ![share_-_8.png](/configure-iscsi-storage/share_-_8.png){.align-left}
 9.	In the Permission Entry for Data window, select, Select a principal, enter Domain Users and then select Ok.
+![share_-_9.png](/configure-iscsi-storage/share_-_9.png){.align-left}
 10.	In the Basic permissions area, select Modify checkbox and then select Ok.
+![share_-_10.png](/configure-iscsi-storage/share_-_10.png){.align-left}
 11.	In the Advanced Security Settings for Data window select Ok.
+![share_-_11.png](/configure-iscsi-storage/share_-_11.png){.align-left}
 12.	On the Specify permissions to control access page, select Next.
 13.	On the Confirm selections page, select Create.
 14.	When the share creating is complete, select Close.
