@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T14:46:55.825Z
+date: 2025-05-18T14:47:53.189Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -190,7 +190,6 @@ dateCreated: 2025-05-16T10:33:58.170Z
 18.	In the MPIO Properties dialog box, on the MPIO Devices tab, notice that Devices Hardware ID has been added to the list.
 ![slide_46.png](/configure-iscsi-storage/slide_46.png){.align-left}
 19.	In the MPIO Properties dialog box select Ok to close the dialog box.
-![slide_47.png](/configure-iscsi-storage/slide_47.png){.align-left}
 
 **Connect to the iSCSI Target**
 
