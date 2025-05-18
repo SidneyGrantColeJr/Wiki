@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T15:19:25.097Z
+date: 2025-05-18T15:58:45.137Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -194,33 +194,42 @@ dateCreated: 2025-05-16T10:33:58.170Z
 **Connect to the iSCSI Target**
 
 1.	On the client machine connecting to the Target machine, in the Server Manager, on the menu bar, select Tools and then select iSCSI Initiator.
+![slide_47.png](/configure-iscsi-storage/slide_47.png){.align-left}
 2.	In the iSCSI Initiator Properties dialog box, on the Targets tab, select Disconnect.
+![slide_48.png](/configure-iscsi-storage/slide_48.png){.align-left}
 3.	In the Disconnect From All Sessions dialog box, select Yes.
+![slide_49.png](/configure-iscsi-storage/slide_49.png){.align-left}
 4.	In the iSCSI Initiator Properties dialog box, on the Targets tab, select Connect.
+![slide_50.png](/configure-iscsi-storage/slide_50.png){.align-left}
 5.	In the Connect to Target dialog box, select the Enable multi-path checkbox.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
+![slide_50_(1).png](/configure-iscsi-storage/slide_50_(1).png){.align-left}
 6.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
+![slide_51_-_1.png](/configure-iscsi-storage/slide_51_-_1.png){.align-left}
 7.	In the Initiator IP list, select your Initiator IP.
-8.	In the Target IP list, select your Target IP.
-9.	In the Advanced Settings dialog box, select Ok.
-10.	In the Connect to Target dialog box, select Ok.
-11.	In the ISCSI Initiator Properties dialog box, on the Targets tab, select Connect.
-12.	In the Connect to Target dialog box, select Enable multi-path.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
-13.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
-14.	In the Initiator IP list, select your Initiator IP Address.
-15.	In the Target portal IP list, select your Target IP Address.
-16.	In the Advanced Settings dialog box, select Ok.
-17.	In the Connect Target dialog box, select Ok.
-18.	In the iSCSI Initiator Properties dialog box, on the Volumes and Devices tab, select Auto Configure.
-19.	In the iSCSI Initiator Properties dialog box, on the Targets tab, in the Targets list, select your iqn and then select Devices.
-20.	In the Devices dialog box, select MPIO.
-21.	Verify that in the Load balance policy, Round Robin is selected.
-22.	Under this device has the following paths, notice that 2 paths are listed.  Select the first path and then select Details.
-23.	Note the IP Address of the Source and Target portals and then select Ok.
-24.	Select the second path and then select Details.
-25.	Verify that this path is using another network and then select Ok.
-26.	In the Device Details dialog box select Ok.
-27.	In the Devices dialog box select Ok.
-28.	In the iSCSI Initiator Properties dialog box select Ok.
+![slide_52_-1.png](/configure-iscsi-storage/slide_52_-1.png){.align-left}
+8.	In the Target IP list, select your Target IP. In the Advanced Settings dialog box, select Ok.
+![slide_53_-1.png](/configure-iscsi-storage/slide_53_-1.png){.align-left}	
+9.	In the Connect to Target dialog box, select Ok.
+![slide_54-1.png](/configure-iscsi-storage/slide_54-1.png){.align-left}
+10.	In the ISCSI Initiator Properties dialog box, on the Targets tab, select Connect.
+![slide_55.png](/configure-iscsi-storage/slide_55.png){.align-left}
+11.	In the Connect to Target dialog box, select Enable multi-path.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
+12.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
+13.	In the Initiator IP list, select your Initiator IP Address.
+14.	In the Target portal IP list, select your Target IP Address.
+15.	In the Advanced Settings dialog box, select Ok.
+16.	In the Connect Target dialog box, select Ok.
+17.	In the iSCSI Initiator Properties dialog box, on the Volumes and Devices tab, select Auto Configure.
+18.	In the iSCSI Initiator Properties dialog box, on the Targets tab, in the Targets list, select your iqn and then select Devices.
+19.	In the Devices dialog box, select MPIO.
+20.	Verify that in the Load balance policy, Round Robin is selected.
+21.	Under this device has the following paths, notice that 2 paths are listed.  Select the first path and then select Details.
+22.	Note the IP Address of the Source and Target portals and then select Ok.
+23.	Select the second path and then select Details.
+24.	Verify that this path is using another network and then select Ok.
+25.	In the Device Details dialog box select Ok.
+26.	In the Devices dialog box select Ok.
+27.	In the iSCSI Initiator Properties dialog box select Ok.
 
 **Initialize the iSCSI disks**
 
