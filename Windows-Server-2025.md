@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T13:37:42.670Z
+date: 2025-05-18T13:44:39.833Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -87,6 +87,10 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - Distributed Files System (DFS)
 - Storage Spaces and Disk Management
 - Configure iSCSI Storage with MPIO
+> iSCSI stands for Internet Small Computer System Interface.  iSCSI Storage is a way to share block-level storage over a standard IP Network. MPIO stands for Multipath I/O.  MPIO is a storage-fault-tolerance and load-balance feature that lets an operating system use two or more physical paths to reach the same block-storage device, in essence it offers redundancy.
+{.is-info}
+
+
 ## Server Security
 - Security baselines and hardening
 - Windows Firewall Configuration
