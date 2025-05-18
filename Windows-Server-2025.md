@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T22:01:16.712Z
+date: 2025-05-18T22:03:41.200Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -273,7 +273,9 @@ dateCreated: 2025-05-16T10:33:58.170Z
 11.	In the Advanced Security Settings for Data window select Ok.
 ![share_-_11.png](/configure-iscsi-storage/share_-_11.png){.align-left}
 12.	On the Specify permissions to control access page, select Next.
+![share_-_12.png](/configure-iscsi-storage/share_-_12.png){.align-left}
 13.	On the Confirm selections page, select Create.
+![share_-_13.png](/configure-iscsi-storage/share_-_13.png){.align-left}
 14.	When the share creating is complete, select Close.
 
 **Create an NFS Share on iSCSI Storage**
