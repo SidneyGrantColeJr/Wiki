@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T22:06:26.211Z
+date: 2025-05-18T22:06:40.581Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -250,7 +250,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 **Configuring and managing the share infrastructure**
 
-1.	On the Server with the Target, select File and Storage Services, and then select Shares.
+1.	On the Target Server, select File and Storage Services, and then select Shares.
 ![share_-_1.png](/share_-_1.png){.align-left}# Windows Server 2025
 2.	In the Shares area, select Tasks and then select New Share.
 ![share_-2.png](/configure-iscsi-storage/share_-2.png){.align-left}
