@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T15:58:45.137Z
+date: 2025-05-18T16:01:00.867Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -214,10 +214,15 @@ dateCreated: 2025-05-16T10:33:58.170Z
 10.	In the ISCSI Initiator Properties dialog box, on the Targets tab, select Connect.
 ![slide_55.png](/configure-iscsi-storage/slide_55.png){.align-left}
 11.	In the Connect to Target dialog box, select Enable multi-path.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
+
 12.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
+
 13.	In the Initiator IP list, select your Initiator IP Address.
+
 14.	In the Target portal IP list, select your Target IP Address.
+
 15.	In the Advanced Settings dialog box, select Ok.
+
 16.	In the Connect Target dialog box, select Ok.
 17.	In the iSCSI Initiator Properties dialog box, on the Volumes and Devices tab, select Auto Configure.
 18.	In the iSCSI Initiator Properties dialog box, on the Targets tab, in the Targets list, select your iqn and then select Devices.
