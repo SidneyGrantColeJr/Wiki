@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T15:06:56.159Z
+date: 2025-05-18T15:08:05.054Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -284,11 +284,12 @@ dateCreated: 2025-05-16T10:33:58.170Z
 18.	On the View results page, select Close.
 ![nfs_share_-_16.png](/configure-iscsi-storage/nfs_share_-_16.png){.align-left}
 
-
 **Map iSCSI Share Folder**
 
 1.	Select your File Folder, Right Click This PC, and select Map Network Drive.
+![map_iscsi_file_-_1.png](/configure-iscsi-storage/map_iscsi_file_-_1.png){.align-left}
 2.	In Map Network Drive, select Drive Letter, Under Folder, type in your server name, and select Browse.  Select Folder you wish to map.
+![map_iscsi_file_-_2.png](/configure-iscsi-storage/map_iscsi_file_-_2.png){.align-left}
 
 **Disable the legacy SMB1 protocol**
 1.	In Windows PowerShell, Set-SmbServerConfiguration -AuditSmb1Access $true
