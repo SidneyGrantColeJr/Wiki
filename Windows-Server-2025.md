@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T14:24:26.051Z
+date: 2025-05-19T14:25:00.893Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -452,20 +452,26 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 1.	Select your File Folder, Right Click This PC, and select Map Network Drive.
 ![map_iscsi_file_-_1.png](/configure-iscsi-storage/map_iscsi_file_-_1.png){.align-left}
+
 2.	In Map Network Drive, select Drive Letter, Under Folder, type in your server name, and select Browse.  Select Folder you wish to map.
 ![map_iscsi_file_-_2.png](/configure-iscsi-storage/map_iscsi_file_-_2.png){.align-left}
 
 **Disable the legacy SMB1 protocol**
 1.	In Windows PowerShell, Set-SmbServerConfiguration -AuditSmb1Access $true
 ![disable_smb1_-_1.png](/configure-iscsi-storage/disable_smb1_-_1.png){.align-left}
+
 2.	For the confirmation message, select Yes.
 ![disable_smb1_-_2.png](/configure-iscsi-storage/disable_smb1_-_2.png){.align-left}
+
 3.	Enter the following, Get-SmbServerConfiguration | FL enable*
 ![disable_smb1_-_3.png](/configure-iscsi-storage/disable_smb1_-_3.png){.align-left}
+
 4.	Enter the following, Set-SmbServerConfiguration -EnableSMB1Protocol $false
 ![disable_smb1_-_4.png](/configure-iscsi-storage/disable_smb1_-_4.png){.align-left}
+
 5.	At the confirmation message, select Yes
 ![nfs_share_-_17.png](/configure-iscsi-storage/nfs_share_-_17.png){.align-left}
+
 6.	Enter the following, Remove-WindowsFeature FS-SMB1
 ![nfs_share_-_18.png](/configure-iscsi-storage/nfs_share_-_18.png){.align-left}
 
