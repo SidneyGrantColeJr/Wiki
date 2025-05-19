@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T14:25:00.893Z
+date: 2025-05-19T20:31:09.553Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -82,6 +82,32 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ## Active Directory (AD DS)
 - Introduction to AD DS
 - Installing and Configuring Domain Controllers
+
+Creating a Domain Controller
+1. In the Server Manager, from the Manage dropdown, select Add Roles and Features.
+2. In the Add Roles and Features Wizard, in the Before you begin pane, select Next.
+3. In the Add Roles and Features Wizard, in the Select installation type, select Next.
+4. In the Add Roles and Features Wizard, in the Select destination server, select Next.
+5. In the Add Roles and Features Wizard, in the Select server roles, select Active Directory Domain Services.
+6. In the Add Roles and Features Wizard, select Add Features.
+7. In the Add Roles and Features Wizard, in the Select server roles, select Next.
+8. In the Add Roles and Features Wizard, in the Select features pane, select Next.
+9. In the Add Roles and Features Wizard, in the Active Directory Domain Services, select Next.
+10. In the Add Roles and Features Wizard, in the Confirm installation selections, select Install.
+11. In the Add Roles and Features Wizard, in the Installation progress pane, select Close.
+12. In the Server Manager Dashboard, select the yellow flag alert, and select Promote this server to a domain controller.
+13. In the Deployment Configuration pane, select Add a new forest. Type in your root domain name.
+14. In the Domain Controller Options, type in your password for the Domain Controller.
+15. In the DNS Options pane, select Next.
+16. In the Additional Options pane, type in your domain name for the NetBIOS domain name.
+17. In the Paths pane, select Next.
+18. In the Review Options pane, select Next.
+19. In the Prerequisites Check pane, select Install.
+20. Restart Server.
+
+
+
+
 - Managing users, groups, and organizational units (OUs)
 - Group Policy Basics and Management
 ## Networking Services
