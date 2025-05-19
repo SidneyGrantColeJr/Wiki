@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T14:23:28.562Z
+date: 2025-05-19T14:24:26.051Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -341,10 +341,13 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 1.	On the Target Server, select File and Storage Services and then in the left pan select Disks.
 ![initialize_iscsi_disks.png](/configure-iscsi-storage/initialize_iscsi_disks.png){.align-left}
+
 2.	In the iSCSI pane, right click or access the context menu for an offline disk with a bus type of iSCSI and then select Assign iSCSI Virtual Disk.
 ![initialize_iscsi_disks_-2.png](/configure-iscsi-storage/initialize_iscsi_disks_-2.png){.align-left}
+
 3.	In the Assign iSCSI target pane, select Existing iSCSI target, and select Next. In the Confirm Selections pane, select Assign.
 ![initialize_iscsi_disks_-_3.png](/configure-iscsi-storage/initialize_iscsi_disks_-_3.png){.align-left}
+
 4.	In the View results pane, select Close.
 ![initialize_iscsi_disks_-4.png](/configure-iscsi-storage/initialize_iscsi_disks_-4.png){.align-left}
 
@@ -352,67 +355,96 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 1.	On the Target Server, select File and Storage Services, and then select Shares.
 ![share_-_1.png](/share_-_1.png){.align-left}# Windows Server 2025
+
 2.	In the Shares area, select Tasks and then select New Share.
 ![share_-2.png](/configure-iscsi-storage/share_-2.png){.align-left}
+
 3.	In the New Share Wizard, on the Select the profile for this share page, in the File share profile box, select SMB Share – Quick and then select Next.
 ![share_-3_.png](/configure-iscsi-storage/share_-3_.png){.align-left}!
+
 4.	On the Select the server and path for this share page, select the Initiator computer.  Select by volume, select the letter and then select Next.
 [share_-_4.png](/configure-iscsi-storage/share_-_4.png){.align-left}!
+
 5.	On the Specify share name page, in the Share name text box, enter Data and then select Next.
 [share_5.png](/configure-iscsi-storage/share_5.png)
+
 6.	On the Configure share settings page, select the Enable access-based enumeration checkbox, and then select Next.
 ![share_-_6.png](/configure-iscsi-storage/share_-_6.png){.align-left}!
+
 7.	On the Specify permissions to control access page, select Customize permissions.
 [share_-_7.png](/configure-iscsi-storage/share_-_7.png){.align-left}
+
 8.	In the Advanced Security Settings for Data window, on the Permissions tab, select Add.
 ![share_-_8.png](/configure-iscsi-storage/share_-_8.png){.align-left}
+
 9.	In the Permission Entry for Data window, select, Select a principal, enter Domain Users and then select Ok.
 ![share_-_9.png](/configure-iscsi-storage/share_-_9.png){.align-left}
+
 10.	In the Basic permissions area, select Modify checkbox and then select Ok.
 ![share_-_10.png](/configure-iscsi-storage/share_-_10.png){.align-left}
+
 11.	In the Advanced Security Settings for Data window select Ok.
 ![share_-_11.png](/configure-iscsi-storage/share_-_11.png){.align-left}
+
 12.	On the Specify permissions to control access page, select Next.
 ![share_-_12.png](/configure-iscsi-storage/share_-_12.png){.align-left}
+
 13.	On the Confirm selections page, select Create.
 ![share_-_14.png](/configure-iscsi-storage/share_-_14.png){.align-left}
+
 14.	When the share creating is complete, select Close.
 ![share_-_13.png](/configure-iscsi-storage/share_-_13.png){.align-left}
+
 
 **Create an NFS Share on iSCSI Storage**
 
 1.	On the Target Server, in the Shares area, select Tasks and then select New Share.
 ![nfs_share_-_1.png](/configure-iscsi-storage/nfs_share_-_1.png){.align-left}
+
 2.	In the New Share Wizard, on the Select profile for this share page, in the File share profile box, select NFS Share-Quick and then select Next.
 ![nfs_share_-2.png](/configure-iscsi-storage/nfs_share_-2.png){.align-left}
+
 3.	On the Select the server and path for this share page, select the Target Server, select by volume, select K, and then select Next.
 ![nfs_share_-_3.png](/configure-iscsi-storage/nfs_share_-_3.png){.align-left}
+
 4.	On the Specify share name page, in the Share name text box, enter LinuxData and then select Next.
 ![nfs_share_-_4.png](/configure-iscsi-storage/nfs_share_-_4.png){.align-left}
+
 5.	On the Specify authentication methods page, select Kerberos v5 authentication and then select Next.
 ![nfs_share_-_5.png](/configure-iscsi-storage/nfs_share_-_5.png){.align-left}
+
 6.	On the Specify the share permissions page, select Add.
 ![nfs_share_-_6.png](/configure-iscsi-storage/nfs_share_-_6.png){.align-left}
+
 7.	In the Add Permissions window select All Machines.
 ![nfs_share_-_7.png](/configure-iscsi-storage/nfs_share_-_7.png){.align-left}
+
 8.	In the Share Permissions box, select Read/Write and then select Add. (No Screenshot Present)
 9.	On the Specify the share permissions page, select Next. 
 ![nfs_share_-_8.png](/configure-iscsi-storage/nfs_share_-_8.png){.align-left}
+
 10.	On the Specify permissions to control access page, select Customize Permissions, and select Next.
 ![nfs_share_-_9.png](/configure-iscsi-storage/nfs_share_-_9.png){.align-left}
+
 11.	On the Advanced Security Settings pane, select Add.
 ![nfs_share_-_10.png](/configure-iscsi-storage/nfs_share_-_10.png){.align-left}
+
 12.	In the Permission Entry pane, select, Select a principal.
 ![nfs_share_-_11.png](/configure-iscsi-storage/nfs_share_-_11.png){.align-left}
+
 13.	In the Permission Entry pane, enter Domain Users and then select Ok.
 ![nfs_share_-_12.png](/configure-iscsi-storage/nfs_share_-_12.png){.align-left}
+
 14.	In the Permission Entry pane, under Basic permissions, select Modify, and select Next.
 ![nfs_share_-_13.png](/configure-iscsi-storage/nfs_share_-_13.png){.align-left}
+
 15.	In the Advanced Security Settings, select Ok.
 ![nfs_share_-_14.png](/configure-iscsi-storage/nfs_share_-_14.png){.align-left}
+
 16.	In the Specify permissions to control access pane, select Next. (No Screenshot Present)
 17.	On the Confirm selections page, select Create.
 ![nfs_share_-_15.png](/configure-iscsi-storage/nfs_share_-_15.png){.align-left}
+
 18.	On the View results page, select Close.
 ![nfs_share_-_16.png](/configure-iscsi-storage/nfs_share_-_16.png){.align-left}
 
