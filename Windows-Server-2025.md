@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T13:04:46.762Z
+date: 2025-05-19T13:10:19.897Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -62,6 +62,15 @@ dateCreated: 2025-05-16T10:33:58.170Z
 > - ***Windows Admin Center Gateway:***  (Not officially a role in Server Manager, but included) Web-based management console.
 > 
 > (Roles are installed via Server Manager with the Add Reoles and Features or you can install with PowerShell with the Install-WindowsFeature.
+
+> **Windows Server 2025 Editions**
+> Standard
+> Datacenter
+> Datacenter: Azure Edition 
+> Essentials
+> Hyper-V Server
+> Server Core Installation
+> IoT Embedded Variants
 
 
 
