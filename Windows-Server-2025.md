@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T20:38:11.373Z
+date: 2025-05-19T20:42:15.401Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -123,7 +123,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 13. In the Deployment Configuration pane, select Add a new forest. Type in your root domain name.
 ![slide_13.png](/slide_13.png){.align-left}
 
-14. In the Domain Controller Options, type in your password for the Domain Controller.
+14. In the Domain Controller Options,select Domain Name System (DNS) server, and Global Catalog (GC), and type in your password for the Domain Controller.
 ![slide_14.png](/slide_14.png){.align-left}
 
 15. In the DNS Options pane, select Next.
