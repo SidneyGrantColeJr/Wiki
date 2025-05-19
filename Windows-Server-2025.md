@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T13:02:56.707Z
+date: 2025-05-19T13:04:46.762Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -42,7 +42,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
     - **System Requirements: Requires a 1.4 GHz 64-bit processor, 512 MB RAM (Server Core) or 2 GB RAM (Desktop Experience), and at least 32 GB storage.**
     - **Windows Server 2025 is designed for on-premised, hybrid, and cloud environments**
 
-> ###  Server roles and editions
+> ###  Server roles 
 > - ***Active Directory Domain Services (AD DS):*** Lets you run a Domain Controller and manage users, groups, devices, and GPOs.
 > - ***Active Directory Certificate Services (AD CS):*** Publishes and manages digital certificates.
 > - ***Active Directory Federation Services:*** Provides single-sign-on and claims-based auth across trusted partners/cloud apps.
