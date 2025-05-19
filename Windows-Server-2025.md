@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T14:21:11.362Z
+date: 2025-05-19T14:23:28.562Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -222,79 +222,113 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 1.	In Server Manager, select Manage menu, and then select Add Roles and Features.
 ![slide_30.png](/configure-iscsi-storage/slide_30.png){.align-left}
+
 2.	In the Add Roles and Features Wizard, on the Before you begin page, select Next.
 ![slide_31.png](/configure-iscsi-storage/slide_31.png){.align-left}
+
 3.	On the Select Installation Type, page select Next.
 ![slide_32.png](/configure-iscsi-storage/slide_32.png){.align-left}
+
 4.	On the Select Destination Server page, ensure that Select a Server from the Server Pool is selected and then select Next.
 ![slide_33.png](/configure-iscsi-storage/slide_33.png){.align-left}
+
 5.	On the Select Server Roles page, select Next.
 ![slide_34.png](/configure-iscsi-storage/slide_34.png){.align-left}
+
 6.	On the Select Features page, select Multipath I/O and then select Next.
 ![slide_35.png](/configure-iscsi-storage/slide_35.png){.align-left}
+
 7.	On the Confirm Installation selections page, select Install.
 ![slide_36.png](/configure-iscsi-storage/slide_36.png){.align-left}
+
 8.	When the installation is complete, select Close.
 ![slide_37.png](/configure-iscsi-storage/slide_37.png){.align-left}
+
 9.	Restart the Server.
 10.	In Server Manager, select Tools and select iSCSI Initiator.
 ![slide_38.png](/configure-iscsi-storage/slide_38.png){.align-left}
+
 11.	In the Microsoft iSCSI message box, select Yes.
 ![slide_39.png](/configure-iscsi-storage/slide_39.png){.align-left}
+
 12.	In the iSCSI Initiator Properties dialog box, on the Targets Tab, in the Target text box, enter 192.168.4.194 (IP Address of your Target) and then select Quick Connect.
 ![slide_40.png](/configure-iscsi-storage/slide_40.png){.align-left}
+
 13.	In the Quick Connect box, select Done.
 ![slide_41.png](/configure-iscsi-storage/slide_41.png){.align-left}
+
 14.	In the iSCSI Initiator Properties dialog box, select Ok.
 ![slide_42.png](/configure-iscsi-storage/slide_42.png){.align-left}
+
 15.	In the Server Manager, on the menu bar, select Tools, and then select MPIO.
 ![slide_43.png](/configure-iscsi-storage/slide_43.png){.align-left}
+
 16.	In the MPIO Properties dialog box, on the Discover Multi-Paths Tab, select Add support for iSCSI devices and then select Add. Restart the Server. Select Ok at the message prompt and then select Ok to close the MPIO Properties.
 ![slide_44.png](/configure-iscsi-storage/slide_44.png){.align-left}
+
 17.	In the Server Manager, on the menu bar, select Tools and then select MPIO.
 ![slide_45.png](/configure-iscsi-storage/slide_45.png){.align-left}
+
 18.	In the MPIO Properties dialog box, on the MPIO Devices tab, notice that Devices Hardware ID has been added to the list.
 ![slide_46.png](/configure-iscsi-storage/slide_46.png){.align-left}
+
 19.	In the MPIO Properties dialog box select Ok to close the dialog box.
 
 **Connect to the iSCSI Target**
 
 1.	On the client machine connecting to the Target machine, in the Server Manager, on the menu bar, select Tools and then select iSCSI Initiator.
 ![slide_47.png](/configure-iscsi-storage/slide_47.png){.align-left}
+
 2.	In the iSCSI Initiator Properties dialog box, on the Targets tab, select Disconnect.
 ![slide_48.png](/configure-iscsi-storage/slide_48.png){.align-left}
+
 3.	In the Disconnect From All Sessions dialog box, select Yes.
 ![slide_49.png](/configure-iscsi-storage/slide_49.png){.align-left}
+
 4.	In the iSCSI Initiator Properties dialog box, on the Targets tab, select Connect.
 ![slide_50.png](/configure-iscsi-storage/slide_50.png){.align-left}
+
 5.	In the Connect to Target dialog box, select the Enable multi-path checkbox.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
 ![slide_50_(1).png](/configure-iscsi-storage/slide_50_(1).png){.align-left}
+
 6.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
 ![slide_51_-_1.png](/configure-iscsi-storage/slide_51_-_1.png){.align-left}
+
 7.	In the Initiator IP list, select your Initiator IP.
 ![slide_52_-1.png](/configure-iscsi-storage/slide_52_-1.png){.align-left}
+
 8.	In the Target IP list, select your Target IP. In the Advanced Settings dialog box, select Ok.
-![slide_53_-1.png](/configure-iscsi-storage/slide_53_-1.png){.align-left}	
+![slide_53_-1.png](/configure-iscsi-storage/slide_53_-1.png){.align-left}
+
 9.	In the Connect to Target dialog box, select Ok.
 ![slide_54-1.png](/configure-iscsi-storage/slide_54-1.png){.align-left}
+
 10.	In the ISCSI Initiator Properties dialog box, on the Targets tab, select Connect.
 ![slide_55.png](/configure-iscsi-storage/slide_55.png){.align-left}
+
 11.	In the Connect to Target dialog box, select Enable multi-path.  Verify that the Add this connection to the list of Favorite Targets checkbox is selected, and then select Advanced.
 ![slide_50_(1).png](/configure-iscsi-storage/slide_50_(1).png){.align-left}
+
 12.	In the Advanced Settings dialog box, on the General tab, changed the Local Adapter from Default to Microsoft iSCSI Initiator.
 ![slide_51_-_1.png](/configure-iscsi-storage/slide_51_-_1.png){.align-left}
+
 13.	In the Initiator IP list, select your Initiator IP Address.
 ![slide_52_-1.png](/configure-iscsi-storage/slide_52_-1.png){.align-left}
+
 14.	In the Target portal IP list, select your Target IP Address. In the Advanced Settings dialog box, select Ok.
 ![slide_53_-1.png](/configure-iscsi-storage/slide_53_-1.png){.align-left}
+
 15.	In the Connect Target dialog box, select Ok.
 16.	In the iSCSI Initiator Properties dialog box, on the Volumes and Devices tab, select Auto Configure.
 17.	In the iSCSI Initiator Properties dialog box, on the Targets tab, in the Targets list, select your iqn and then select Devices.
 ![slide_61.png](/configure-iscsi-storage/slide_61.png){.align-left}
+
 18.	In the Devices dialog box, select MPIO.
 ![slide_60.png](/configure-iscsi-storage/slide_60.png){.align-left}
+
 19.	Verify that in the Load balance policy, Round Robin is selected.
 ![slide_59.png](/configure-iscsi-storage/slide_59.png){.align-left}
+
 20.	Under this device has the following paths, notice that 2 paths are listed.  Select the first path and then select Details.
 21.	Note the IP Address of the Source and Target portals and then select Ok.
 22.	Select the second path and then select Details.
