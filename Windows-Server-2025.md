@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T14:20:16.900Z
+date: 2025-05-19T14:21:11.362Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -159,44 +159,64 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 1.	In the Target Server Manager, in the navigation pane, select File and Storage Services.
 ![slide_10.png](/configure-iscsi-storage/slide_10.png){.align-left}
+
 2.	In the File and Storage Services pane, select iSCSI. In the iSCI Virtual Disks pane, select Tasks, and then select New iSCSI Virtual Disk.
 ![slide_11.png](/configure-iscsi-storage/slide_11.png){.align-left}
+
 3.	In the New iSCSI Virtual Disk Wizard, on the Select iSCSI Virtual Disk Location page, under Storage Location, select volume C: and then select Next.
 ![slide_12.png](/configure-iscsi-storage/slide_12.png){.align-left}
+
 4.	On the Specify iSCSI Virtual Disk Name page, in the Name text box, enter iSCSI Disk1 and then select Next.
 ![slide_13.png](/configure-iscsi-storage/slide_13.png){.align-left}
+
 5.	On the Specify iSCSI virtual disk page, in the Size text box, enter 5.  Ensure that GB is selected and then select Next.
 ![slide_14.png](/configure-iscsi-storage/slide_14.png){.align-left}
+
 6.	On the Assign iSCSI Target page, ensure that the New iSCSI Target option is selected and then select Next.
 ![slide_15.png](/configure-iscsi-storage/slide_15.png){.align-left}
+
 7.	On the Specify target name page, in the Name text box, enter your Server Name and the select Next.
 ![slide_16.png](/configure-iscsi-storage/slide_16.png){.align-left}
+
 8.	On the Specify Access Servers page, select Add.
 ![slide_17.png](/configure-iscsi-storage/slide_17.png){.align-left}
+
 9.	In the Select a method to identify the initiator dialog box, select Enter a value for the selected type.  In the Type list, select IP Address. In the Value text box enter 192.168.4.194 (Target’s IP) and then select ok.
 ![slide_18.png](/configure-iscsi-storage/slide_18.png){.align-left}
+
 10.	On the Specify access servers page, select Next.
 ![slide_19.png](/configure-iscsi-storage/slide_19.png){.align-left}
+
 11.	On the Enable Authentication page, select Next.
 ![slide_20.png](/configure-iscsi-storage/slide_20.png){.align-left}
+
 12.	On the Confirm Selections page, select Create.
 ![slide_21.png](/configure-iscsi-storage/slide_21.png){.align-left}
+
 13.	On the View Results page, wait until the Virtual disk is created, and then select Close.
 ![slide_22.png](/configure-iscsi-storage/slide_22.png){.align-left}
+
 14.	In the iSCSI Virtual Disks pane, select Tasks and then select New iSCSI Virtual Disk.
 ![slide_23.png](/configure-iscsi-storage/slide_23.png){.align-left}
+
 15.	In the New iSCSI Virtual Disk Wizard, on the Select iSCSI Virtual Disk Location page, under Storage location, select volume C: and then select Next.
 ![slide_24.png](/configure-iscsi-storage/slide_24.png){.align-left}
+
 16.	On the Specify iSCSI Virtual Disk Name page, in the Name text box, enter iSCSIDisk2 and then select Next.
 ![slide_25.png](/configure-iscsi-storage/slide_25.png){.align-left}
+
 17.	On the Specify iSCSI virtual disk size page in the Size text box, enter 5.  Ensure GB is selected and then select Next.
 ![slide_26.png](/configure-iscsi-storage/slide_26.png){.align-left}
+
 18.	On the Assign iSCSI Target page, select cole-svr2 and then select Next.
 ![slide_27.png](/configure-iscsi-storage/slide_27.png){.align-left}
+
 19.	On the Confirm selections page, select Create.
 ![slide_28.png](/configure-iscsi-storage/slide_28.png){.align-left}
+
 20.	On the View results page, wait until the virtual disk is created and then select Close.
 ![slide_29.png](/configure-iscsi-storage/slide_29.png){.align-left}
+
 
 **Configure MPIO**
 
