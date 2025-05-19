@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T20:31:09.553Z
+date: 2025-05-19T20:38:11.373Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -83,30 +83,65 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - Introduction to AD DS
 - Installing and Configuring Domain Controllers
 
-Creating a Domain Controller
+**Creating a Domain Controller**
 1. In the Server Manager, from the Manage dropdown, select Add Roles and Features.
+![slide_1.png](/slide_1.png){.align-left}
+
 2. In the Add Roles and Features Wizard, in the Before you begin pane, select Next.
+![slide_2.png](/slide_2.png){.align-left}
+
 3. In the Add Roles and Features Wizard, in the Select installation type, select Next.
+![slide_3.png](/slide_3.png){.align-left}
+
 4. In the Add Roles and Features Wizard, in the Select destination server, select Next.
+![slide_4.png](/slide_4.png){.align-left}
+
 5. In the Add Roles and Features Wizard, in the Select server roles, select Active Directory Domain Services.
+![slide_5.png](/slide_5.png){.align-left}
+
 6. In the Add Roles and Features Wizard, select Add Features.
+![slide_6.png](/slide_6.png){.align-left}
+
 7. In the Add Roles and Features Wizard, in the Select server roles, select Next.
+![slide_7.png](/slide_7.png){.align-left}
+
 8. In the Add Roles and Features Wizard, in the Select features pane, select Next.
+![slide_8.png](/slide_8.png){.align-left}
+
 9. In the Add Roles and Features Wizard, in the Active Directory Domain Services, select Next.
+![slide_9.png](/slide_9.png){.align-left}
+
 10. In the Add Roles and Features Wizard, in the Confirm installation selections, select Install.
+![slide_10.png](/slide_10.png){.align-left}
+
 11. In the Add Roles and Features Wizard, in the Installation progress pane, select Close.
+![slide_11.png](/slide_11.png){.align-left}
+
 12. In the Server Manager Dashboard, select the yellow flag alert, and select Promote this server to a domain controller.
+![slide_12.png](/slide_12.png){.align-left}
+
 13. In the Deployment Configuration pane, select Add a new forest. Type in your root domain name.
+![slide_13.png](/slide_13.png){.align-left}
+
 14. In the Domain Controller Options, type in your password for the Domain Controller.
+![slide_14.png](/slide_14.png){.align-left}
+
 15. In the DNS Options pane, select Next.
+![slide_15.png](/slide_15.png){.align-left}
+
 16. In the Additional Options pane, type in your domain name for the NetBIOS domain name.
+![slide_16.png](/slide_16.png){.align-left}
+
 17. In the Paths pane, select Next.
+![slide_17.png](/slide_17.png){.align-left}
+
 18. In the Review Options pane, select Next.
+![slide_18.png](/slide_18.png){.align-left}
+
 19. In the Prerequisites Check pane, select Install.
+![slide_19.png](/slide_19.png){.align-left}
+
 20. Restart Server.
-
-
-
 
 - Managing users, groups, and organizational units (OUs)
 - Group Policy Basics and Management
