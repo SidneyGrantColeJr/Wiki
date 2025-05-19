@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-18T22:38:59.773Z
+date: 2025-05-19T12:33:56.409Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -43,6 +43,13 @@ dateCreated: 2025-05-16T10:33:58.170Z
     - **Windows Server 2025 is designed for on-premised, hybrid, and cloud environments**
 
 - Server roles and editions
+***Active Directory Domain Services (AD DS):*** Lets you run a Domain Controller and manage users, groups, devices, and GPOs.
+***Active Directory Certificate Services (AD CS):*** Publishes and manages digital certificates.
+***Active Directory Federation Services:*** Provides single-sign-on and claims-based auth across trusted partners/cloud apps.
+***Active Directory Lightweight Directory Services ()AD LDS):***  A slim LDAP directory for apps that don't need full AD DS.
+
+
+
 ## Installation & Configuration
 - System requirements and hardware planning
 - Installation options (GUI, Core, Nano)
