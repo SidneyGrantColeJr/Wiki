@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T12:59:15.515Z
+date: 2025-05-19T13:01:39.043Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -50,10 +50,10 @@ dateCreated: 2025-05-16T10:33:58.170Z
 > - ***Active Directory Rights Management Services (AD RMS):*** Encrypts and applies usage policies to documents and email.
 > - ***DHCP Server:***  Resolves names to IPs for internal zones (and can forward/recursively resolve external queries).
 > - ***File and Storage Services:***  Classic file shares plus SMB over QUIC, Storage Spaces Direct, deduplication, iSCSI, and more.
-> - ***Print and Document Services: *** Central print server with role-based & Universal Print support.
-> - ***Remote Access:* ** DirectAccess and traditional VPN (RRAS) in one package; can also as as a web application proxy.
-> - ***Web Service (IIS):* ** Hosts web sites, REST APIs and .NET/ASP.NET apps; includes HTTP/3 and TLS 1.3 by default.
-> - ***Windows Server Update Services (WSUS):* ** PXE-based OS deployment for bare-metal or VMs.
+> - ***Print and Document Services:*** Central print server with role-based & Universal Print support.
+> - ***Remote Access:*** DirectAccess and traditional VPN (RRAS) in one package; can also as as a web application proxy.
+> - ***Web Service (IIS):***  Hosts web sites, REST APIs and .NET/ASP.NET apps; includes HTTP/3 and TLS 1.3 by default.
+> - ***Windows Server Update Services (WSUS):***  PXE-based OS deployment for bare-metal or VMs.
 > - ***Failover Clustering:***  Provides high availability for clustered VMs, files shares, SQL, etc.
 > - ***Network Policy and Access Services (NPAS/NPS):***  RADIUS server for Wi-Fi/VPN auth, connection-request policies, and accounting.
 > - ***Remote-Desktop Services (RDS):***  Session-based desktops, RemoteApp, and VDI broker.
