@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T20:46:15.803Z
+date: 2025-05-19T20:47:54.516Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -142,6 +142,8 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![slide_19.png](/slide_19.png){.align-left}
 
 20. Restart Server.
+
+**Add a Windows Server to a Domain**
 
 - Managing users, groups, and organizational units (OUs)
 - Group Policy Basics and Management
