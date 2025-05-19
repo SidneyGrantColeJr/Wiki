@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-19T12:57:07.583Z
+date: 2025-05-19T12:58:52.821Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -42,24 +42,24 @@ dateCreated: 2025-05-16T10:33:58.170Z
     - **System Requirements: Requires a 1.4 GHz 64-bit processor, 512 MB RAM (Server Core) or 2 GB RAM (Desktop Experience), and at least 32 GB storage.**
     - **Windows Server 2025 is designed for on-premised, hybrid, and cloud environments**
 
-- Server roles and editions
-***Active Directory Domain Services (AD DS):*** Lets you run a Domain Controller and manage users, groups, devices, and GPOs.
-***Active Directory Certificate Services (AD CS):*** Publishes and manages digital certificates.
-***Active Directory Federation Services:*** Provides single-sign-on and claims-based auth across trusted partners/cloud apps.
-***Active Directory Lightweight Directory Services ()AD LDS):***  A slim LDAP directory for apps that don't need full AD DS.
-***Active Directory Rights Management Services (AD RMS):*** Encrypts and applies usage policies to documents and email.
-***DHCP Server:***  Resolves names to IPs for internal zones (and can forward/recursively resolve external queries).
-***File and Storage Services:***  Classic file shares plus SMB over QUIC, Storage Spaces Direct, deduplication, iSCSI, and more.
-***Print and Document Services: *** Central print server with role-based & Universal Print support.
-***Remote Access:* ** DirectAccess and traditional VPN (RRAS) in one package; can also as as a web application proxy.
-***Web Service (IIS):* ** Hosts web sites, REST APIs and .NET/ASP.NET apps; includes HTTP/3 and TLS 1.3 by default.
-***Windows Server Update Services (WSUS):* ** PXE-based OS deployment for bare-metal or VMs.
-***Failover Clustering:***  Provides high availability for clustered VMs, files shares, SQL, etc.
-***Network Policy and Access Services (NPAS/NPS):***  RADIUS server for Wi-Fi/VPN auth, connection-request policies, and accounting.
-***Remote-Desktop Services (RDS):***  Session-based desktops, RemoteApp, and VDI broker.
-***Windows Time Service:***  Stratum-0/Stratum-1 compliant time source (now supports PTPv2 hardware timestamping).
-***Storage Replica:***  Synchronous or async block-level replication between servers or clusters.
-***Windows Admin Center Gateway:***  (Not officially a role in Server Manager, but included) Web-based management console.
+**> ### Server roles and editions**
+> - ***Active Directory Domain Services (AD DS):*** Lets you run a Domain Controller and manage users, groups, devices, and GPOs.
+> - ***Active Directory Certificate Services (AD CS):*** Publishes and manages digital certificates.
+> - ***Active Directory Federation Services:*** Provides single-sign-on and claims-based auth across trusted partners/cloud apps.
+> - ***Active Directory Lightweight Directory Services ()AD LDS):***  A slim LDAP directory for apps that don't need full AD DS.
+> - ***Active Directory Rights Management Services (AD RMS):*** Encrypts and applies usage policies to documents and email.
+> - ***DHCP Server:***  Resolves names to IPs for internal zones (and can forward/recursively resolve external queries).
+> - ***File and Storage Services:***  Classic file shares plus SMB over QUIC, Storage Spaces Direct, deduplication, iSCSI, and more.
+> - ***Print and Document Services: *** Central print server with role-based & Universal Print support.
+> - ***Remote Access:* ** DirectAccess and traditional VPN (RRAS) in one package; can also as as a web application proxy.
+> - ***Web Service (IIS):* ** Hosts web sites, REST APIs and .NET/ASP.NET apps; includes HTTP/3 and TLS 1.3 by default.
+> - ***Windows Server Update Services (WSUS):* ** PXE-based OS deployment for bare-metal or VMs.
+> - ***Failover Clustering:***  Provides high availability for clustered VMs, files shares, SQL, etc.
+> - ***Network Policy and Access Services (NPAS/NPS):***  RADIUS server for Wi-Fi/VPN auth, connection-request policies, and accounting.
+> - ***Remote-Desktop Services (RDS):***  Session-based desktops, RemoteApp, and VDI broker.
+> - ***Windows Time Service:***  Stratum-0/Stratum-1 compliant time source (now supports PTPv2 hardware timestamping).
+> - ***Storage Replica:***  Synchronous or async block-level replication between servers or clusters.
+> - ***Windows Admin Center Gateway:***  (Not officially a role in Server Manager, but included) Web-based management console.
 
 (Roles are installed via Server Manager with the Add Reoles and Features or you can install with PowerShell with the Install-WindowsFeature.
 
