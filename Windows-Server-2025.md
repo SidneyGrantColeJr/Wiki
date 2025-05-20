@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-20T12:19:21.463Z
+date: 2025-05-20T12:20:15.079Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -203,16 +203,18 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 Note:  If you revert back to Basic Storage, it will wipe the contents of the disk.
 
+- **Create a Storage Pool**
+
+1. In Server Manager,in the File and Storage Services, select Storage Pools and then from the Tasks drop-down, select New Storage Pool.
+2.  Follow the wizard for setup.
+
 - **Create a New Volume**
 
 1.  Right click the unallocated space and select New Volume.
 2.  Follow the wizard, select the size, assign a drive letter and choose the Format.
 3. After formatting, the volume will appear in the File explorer.
 
-- **Create a Storage Pool**
 
-1. In Server Manager,in the File and Storage Services, select Storage Pools and then from the Tasks drop-down, select New Storage Pool.
-2.  Follow the wizard for setup.
 
 Note:  You must have more than one virtual disk to setup a storage pool.
 
