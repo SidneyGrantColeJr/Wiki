@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-20T12:20:35.341Z
+date: 2025-05-20T12:21:09.705Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -201,14 +201,14 @@ dateCreated: 2025-05-16T10:33:58.170Z
 3. Right click the disk label and choose convert to Dynamic Disk.
 4. Follow the prompts to complete the conversion.
 
-Note:  If you revert back to Basic Storage, it will wipe the contents of the disk.
+> Note:  If you revert back to Basic Storage, it will wipe the contents of the disk.
 
 - **Create a Storage Pool**
 
 1. In Server Manager,in the File and Storage Services, select Storage Pools and then from the Tasks drop-down, select New Storage Pool.
 2.  Follow the wizard for setup.
 
-Note:  You must have more than one virtual disk to setup a storage pool.
+> Note:  You must have more than one virtual disk to setup a storage pool.
 
 - **Create a New Volume**
 
