@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-21T12:17:42.103Z
+date: 2025-05-21T12:36:56.584Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -145,14 +145,32 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 **Add a Windows Server to a Domain**
 
+1. In Server Manager, from the Manage drop-down, select Add Roles and Features.
+2. In the Add Roles and Features Wizard, in the Before you begin pane, select Next.
+3. In the Select installation type pane, select Role-based or feature-based installation, and then select Next.
+4. In the Select destination server, select server and then select Next.
+5. In the Select server roles, select Active Directory Domain Services, and then select Next.
+6. In the Add Roles and Features Wizard, select Add Features.
+7. In the Select server roles pane, select Next.
+8. In the Select features pane, select Next.
+9. In the Active Directory Domain Services pane, select Next.
+10. In the Confirm installation selections, select Install.
+11. In the Installation progress pane, select Close.
+
+
 1. From the Start, type Control Panel and select.
 2. From the Control Panel pane, select Network & Internet.
 3. From the Network and Internet pane, select Network and Sharing Center.
 4. From the Network and Sharing Center pane, select Change Adapter Settings.
 5. From the Network Connections pane, right click and select Properties.
 6. From the Ethernet Properties dialog box, double click Internet Protocol Version 4 (TCP/IPv4).
-7. Select Use the following IP Address and enter a static IP address, Subnect mask and the Default Gateway for your Server. Also, select Use the following DNS Server.  You must use the Primary Domain Controller's DNS IP Address.
-8.
+7. Select Use the following IP Address and enter a static IP address, Subnect mask and the Default Gateway for your Server. Also, select Use the following DNS Server.  You must use the Primary Domain Controller's DNS IP Address. Select Ok.
+8. In the Ethernet Properties dialog box, select Ok and close out of the open windows.
+9. Open File Explorer, right click This PC and select Properties.
+10. Select Advanced System Settings.
+11. In the System Properties pane, select Computer Name.
+12. To rename this computer or change its domain or workgroup, click Change.
+13. Enter a Computer name. Select Member of Domain, and enter the Domain name you want to join, and select Ok.D
 
 
 - Managing users, groups, and organizational units (OUs)
