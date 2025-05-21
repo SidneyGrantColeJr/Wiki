@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-21T23:19:43.821Z
+date: 2025-05-21T23:45:30.846Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -158,6 +158,9 @@ dateCreated: 2025-05-16T10:33:58.170Z
 11. In the Installation progress pane, select Close.
 
 - **Add an A Record**
+1. On your Main Domain Controller, in Server Manager, from the Tools drop-down menu, select DNS.
+2. In DNS Manager, expand Forward Lookup Zones, and right click your Domain Name, and select New Host (A or AAAA).
+3. In the New Host dialog box, input the name of the system and the IP Address, and select Add Host.
 
 - **Joint the Windows Server to the Domain**
 1. From the Start, type Control Panel and select.
@@ -168,11 +171,12 @@ dateCreated: 2025-05-16T10:33:58.170Z
 6. From the Ethernet Properties dialog box, double click Internet Protocol Version 4 (TCP/IPv4).
 7. Select Use the following IP Address and enter a static IP address, Subnect mask and the Default Gateway for your Server. Also, select Use the following DNS Server.  You must use the Primary Domain Controller's DNS IP Address. Select Ok.
 8. In the Ethernet Properties dialog box, select Ok and close out of the open windows.
-9. Open File Explorer, right click This PC and select Properties.
-10. Select Advanced System Settings.
-11. In the System Properties pane, select Computer Name.
-12. To rename this computer or change its domain or workgroup, click Change.
-13. Enter a Computer name. Select Member of Domain, and enter the Domain name you want to join, and select Ok.D
+9. Restart the Server.
+10. Open File Explorer, right click This PC and select Properties.
+11. Select Advanced System Settings.
+12. In the System Properties pane, select Computer Name.
+13. To rename this computer or change its domain or workgroup, click Change.
+14. Enter a Computer name. Select Member of Domain, and enter the Domain name you want to join, and select Ok.D
 
 
 - Managing users, groups, and organizational units (OUs)
