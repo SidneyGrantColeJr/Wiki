@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-21T12:36:56.584Z
+date: 2025-05-21T12:46:35.727Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -144,7 +144,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 20. Restart Server.
 
 **Add a Windows Server to a Domain**
-
+- **Install Active Directory Domain Services**
 1. In Server Manager, from the Manage drop-down, select Add Roles and Features.
 2. In the Add Roles and Features Wizard, in the Before you begin pane, select Next.
 3. In the Select installation type pane, select Role-based or feature-based installation, and then select Next.
@@ -156,6 +156,9 @@ dateCreated: 2025-05-16T10:33:58.170Z
 9. In the Active Directory Domain Services pane, select Next.
 10. In the Confirm installation selections, select Install.
 11. In the Installation progress pane, select Close.
+- **Add Domanin Name Services**
+
+
 
 
 1. From the Start, type Control Panel and select.
