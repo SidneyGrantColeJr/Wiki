@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-21T12:46:35.727Z
+date: 2025-05-21T23:19:43.821Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -149,18 +149,17 @@ dateCreated: 2025-05-16T10:33:58.170Z
 2. In the Add Roles and Features Wizard, in the Before you begin pane, select Next.
 3. In the Select installation type pane, select Role-based or feature-based installation, and then select Next.
 4. In the Select destination server, select server and then select Next.
-5. In the Select server roles, select Active Directory Domain Services, and then select Next.
+5. In the Select server roles, select Active Directory Domain Services, and select Domain Name Services and then select Next.
 6. In the Add Roles and Features Wizard, select Add Features.
 7. In the Select server roles pane, select Next.
 8. In the Select features pane, select Next.
 9. In the Active Directory Domain Services pane, select Next.
 10. In the Confirm installation selections, select Install.
 11. In the Installation progress pane, select Close.
-- **Add Domanin Name Services**
 
+- **Add an A Record**
 
-
-
+- **Joint the Windows Server to the Domain**
 1. From the Start, type Control Panel and select.
 2. From the Control Panel pane, select Network & Internet.
 3. From the Network and Internet pane, select Network and Sharing Center.
