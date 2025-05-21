@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-20T12:21:09.705Z
+date: 2025-05-21T12:17:42.103Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -144,6 +144,16 @@ dateCreated: 2025-05-16T10:33:58.170Z
 20. Restart Server.
 
 **Add a Windows Server to a Domain**
+
+1. From the Start, type Control Panel and select.
+2. From the Control Panel pane, select Network & Internet.
+3. From the Network and Internet pane, select Network and Sharing Center.
+4. From the Network and Sharing Center pane, select Change Adapter Settings.
+5. From the Network Connections pane, right click and select Properties.
+6. From the Ethernet Properties dialog box, double click Internet Protocol Version 4 (TCP/IPv4).
+7. Select Use the following IP Address and enter a static IP address, Subnect mask and the Default Gateway for your Server. Also, select Use the following DNS Server.  You must use the Primary Domain Controller's DNS IP Address.
+8.
+
 
 - Managing users, groups, and organizational units (OUs)
 - Group Policy Basics and Management
