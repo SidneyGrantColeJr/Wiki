@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-21T23:45:30.846Z
+date: 2025-05-21T23:55:45.587Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -156,12 +156,6 @@ dateCreated: 2025-05-16T10:33:58.170Z
 9. In the Active Directory Domain Services pane, select Next.
 10. In the Confirm installation selections, select Install.
 11. In the Installation progress pane, select Close.
-
-- **Add an A Record**
-1. On your Main Domain Controller, in Server Manager, from the Tools drop-down menu, select DNS.
-2. In DNS Manager, expand Forward Lookup Zones, and right click your Domain Name, and select New Host (A or AAAA).
-3. In the New Host dialog box, input the name of the system and the IP Address, and select Add Host.
-
 - **Joint the Windows Server to the Domain**
 1. From the Start, type Control Panel and select.
 2. From the Control Panel pane, select Network & Internet.
@@ -177,6 +171,8 @@ dateCreated: 2025-05-16T10:33:58.170Z
 12. In the System Properties pane, select Computer Name.
 13. To rename this computer or change its domain or workgroup, click Change.
 14. Enter a Computer name. Select Member of Domain, and enter the Domain name you want to join, and select Ok.D
+15. Enter user name and password.
+16. Restart the server.
 
 
 - Managing users, groups, and organizational units (OUs)
