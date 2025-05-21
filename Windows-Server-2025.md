@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-21T23:55:45.587Z
+date: 2025-05-21T23:56:28.480Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -165,14 +165,13 @@ dateCreated: 2025-05-16T10:33:58.170Z
 6. From the Ethernet Properties dialog box, double click Internet Protocol Version 4 (TCP/IPv4).
 7. Select Use the following IP Address and enter a static IP address, Subnect mask and the Default Gateway for your Server. Also, select Use the following DNS Server.  You must use the Primary Domain Controller's DNS IP Address. Select Ok.
 8. In the Ethernet Properties dialog box, select Ok and close out of the open windows.
-9. Restart the Server.
-10. Open File Explorer, right click This PC and select Properties.
-11. Select Advanced System Settings.
-12. In the System Properties pane, select Computer Name.
-13. To rename this computer or change its domain or workgroup, click Change.
+9. Open File Explorer, right click This PC and select Properties.
+10. Select Advanced System Settings.
+11. In the System Properties pane, select Computer Name.
+12. To rename this computer or change its domain or workgroup, click Change.
 14. Enter a Computer name. Select Member of Domain, and enter the Domain name you want to join, and select Ok.D
-15. Enter user name and password.
-16. Restart the server.
+13. Enter user name and password.
+14. Restart the server.
 
 
 - Managing users, groups, and organizational units (OUs)
