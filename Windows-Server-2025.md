@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T19:27:25.342Z
+date: 2025-05-22T20:00:08.178Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -326,6 +326,10 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![2.png](/storage/dynammicdisk/2.png)
 
 > Note:  If you revert back to Basic Storage, it will wipe the contents of the disk.
+
+**After you converted your disk to Dynamic Storage, you can create a specific Volume Type, by right clicking and selecting one of four options: New Spanned Volume, New Striped Volume, New Mirrored Volume or New RAID-5 Volume.  Once selected, follow the Wizard.  Note:  You need more than one dynamic disk to implement the above options.**
+
+![dynamic_storage_volume_options.png](/storage/dynamic_storage_volume_options.png)
 
 - **Create a Storage Pool**
 
