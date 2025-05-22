@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T12:06:22.980Z
+date: 2025-05-22T12:11:13.212Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -267,7 +267,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![step_1.png](/storage/step_1.png)
 
 2.  In the Computer Management pane, select Disk Management.
-![step_2.png](/storage/step_2.png)
+
 
 3.  If a new disk is detected, you will be prompted to initialize it. Choose GPT (Recommended for most modern servers); or MBR (For legacy systems.), and select Ok.
 ![step_3.png](/storage/step_3.png)
@@ -298,8 +298,14 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - **Configure a Dynamic Disk**
 
 1. In Server Manager, select Tools and then select Computer Management.
+![step_1.png](/storage/step_1.png)
+
 2.  In the Computer Management pane, select Disk Management.
+![step_2.png](/storage/step_2.png)
+
 3. Right click the disk label and choose convert to Dynamic Disk.
+![step_1.png](/storage/step_1.png)
+
 4. In the Convert to Dynamic Disk dialog box, select the basic disk you would like to convert, and then select Ok.
 5. In the Disks to Convert dialog box, select Convert.
 6. In the Disk Managemeent pane, read the information displayed, and select Yes.
