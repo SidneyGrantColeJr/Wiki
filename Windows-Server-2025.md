@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T19:25:11.208Z
+date: 2025-05-22T19:25:44.534Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -327,8 +327,6 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![2.png](/storage/dynammicdisk/2.png)
 
 > Note:  If you revert back to Basic Storage, it will wipe the contents of the disk.
-
-
 
 - **Create a Storage Pool**
 
