@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T11:54:58.823Z
+date: 2025-05-22T11:56:55.462Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -273,18 +273,27 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![step_3.png](/storage/step_3.png)
 
 4. Right-click the Unallocated space, and select New Simple Volume.
+![step_4.png](/storage/step_4.png)
 
 5. In the New Simple Volume Wizard, select Next.
+![step_5.png](/storage/step_5.png)
 
 6. In the Specify Volume Size pane, select the size for your Volume, and select Next.
+![step_6.png](/storage/step_6.png)
 
 7. In the Assign Drive Letter or Path, select a drive letter, and then select Next.
+![step_7.png](/storage/step_7.png)
 
 8. In the Format Partition pane, select your File System Type (exFAT, NTFS (New Technology File System), ReFs (Resilient File System)), select your Allocation unit size, input your Volume LabelTest, select either Perform a quick format or Enable file and folder compression, and then select Ok.
+![step_8.png](/storage/step_8.png)
 
 9. In the Completing the New Simple Volume Wizard, review settings, and then select Finish.
+![step_9.png](/storage/step_9.png)
 
 10.  The New Simple Volume will no appear in your Disk Management Window.
+![step_10.png](/storage/step_10.png)
+
+![comparison_chart.png](/storage/comparison_chart.png)
 
 - **Configure a Dynamic Disk**
 
