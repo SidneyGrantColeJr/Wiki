@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T12:21:27.554Z
+date: 2025-05-22T12:27:08.932Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -295,7 +295,11 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 ![comparison_chart.png](/storage/comparison_chart.png)
 
+
 - **Configure a Dynamic Disk**
+
+![dynamic_disk_explained.png](/storage/dynammicdisk/dynamic_disk_explained.png)
+![types_of_dynamic_disks.png](/storage/dynammicdisk/types_of_dynamic_disks.png)
 
 1. In Server Manager, select Tools and then select Computer Management.
 ![step_1.png](/storage/step_1.png)
@@ -319,6 +323,8 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![2.png](/storage/dynammicdisk/2.png)
 
 > Note:  If you revert back to Basic Storage, it will wipe the contents of the disk.
+
+
 
 - **Create a Storage Pool**
 
