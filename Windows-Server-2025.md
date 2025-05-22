@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T12:15:05.201Z
+date: 2025-05-22T12:21:27.554Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -301,15 +301,22 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![step_1.png](/storage/step_1.png)
 
 2.  In the Computer Management pane, select Disk Management.
-![step_2.png](/storage/step_2.png)
+![2.png](/storage/dynammicdisk/2.png)
 
 3. Right click the disk label and choose convert to Dynamic Disk.
-![step_1.png](/storage/step_1.png)
+![1.png](/storage/dynammicdisk/1.png)
 
 4. In the Convert to Dynamic Disk dialog box, select the basic disk you would like to convert, and then select Ok.
+![2.png](/storage/dynammicdisk/2.png)
+
 5. In the Disks to Convert dialog box, select Convert.
+![3.png](/storage/dynammicdisk/3.png)
+
 6. In the Disk Managemeent pane, read the information displayed, and select Yes.
+![4.png](/storage/dynammicdisk/4.png)
+
 7. The Basic Disk will be converted to a Dynamic Disk.
+![2.png](/storage/dynammicdisk/2.png)
 
 > Note:  If you revert back to Basic Storage, it will wipe the contents of the disk.
 
