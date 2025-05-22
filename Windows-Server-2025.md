@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T00:04:45.711Z
+date: 2025-05-22T00:11:42.014Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -158,38 +158,62 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![step_4.png](/activedirectory/step_4.png)
 
 5. In the Select server roles, select Active Directory Domain Services, and select Domain Name Services and then select Next.
-![step_5.png](/activedirectory/step_5.png)
+![step_6.png](/activedirectory/networking/step_6.png)
 
 6. In the Add Roles and Features Wizard, select Add Features.
-![step_6.png](/activedirectory/step_6.png)
+![step_7.png](/activedirectory/networking/step_7.png)
 
 7. In the Select server roles pane, select Next.
-![step_5.png](/activedirectory/step_5.png)
+![step_8.png](/activedirectory/networking/step_8.png)
 
 8. In the Select features pane, select Next.
-![step_7.png](/activedirectory/step_7.png)
+![step_9.png](/activedirectory/networking/step_9.png)
 
 9. In the Active Directory Domain Services pane, select Next.
-![step_8.png](/activedirectory/step_8.png)
+![step_10.png](/activedirectory/networking/step_10.png)
 
 10. In the Confirm installation selections, select Install.
-![step_9.png](/activedirectory/step_9.png)
+![step_11.png](/activedirectory/networking/step_11.png)
 
 11. In the Installation progress pane, select Close.
+![step_12.png](/activedirectory/networking/step_12.png)
 
 - **Joint the Windows Server to the Domain**
 1. From the Start, type Control Panel and select.
+![step_1.png](/activedirectory/networking/step_1.png)
+
 2. From the Control Panel pane, select Network & Internet.
+![step_2.png](/activedirectory/networking/step_2.png)
+
 3. From the Network and Internet pane, select Network and Sharing Center.
+![step_3.png](/activedirectory/networking/step_3.png)
+
 4. From the Network and Sharing Center pane, select Change Adapter Settings.
+![step_4.png](/activedirectory/networking/step_4.png)
+
 5. From the Network Connections pane, right click and select Properties.
+![step_5.png](/activedirectory/networking/step_5.png)
+
 6. From the Ethernet Properties dialog box, double click Internet Protocol Version 4 (TCP/IPv4).
+![step_6.png](/activedirectory/networking/step_6.png)
+
 7. Select Use the following IP Address and enter a static IP address, Subnect mask and the Default Gateway for your Server. Also, select Use the following DNS Server.  You must use the Primary Domain Controller's DNS IP Address. Select Ok.
+![step_7.png](/activedirectory/networking/step_7.png)
+
 8. In the Ethernet Properties dialog box, select Ok and close out of the open windows.
+![step_8.png](/activedirectory/networking/step_8.png)
+
 9. Open File Explorer, right click This PC and select Properties.
+![step_9.png](/activedirectory/networking/step_9.png)
+
 10. Select Advanced System Settings.
+![step_10.png](/activedirectory/networking/step_10.png)
+
 11. In the System Properties pane, select Computer Name.
+![step_11.png](/activedirectory/networking/step_11.png)
+
 12. To rename this computer or change its domain or workgroup, click Change.
+
 14. Enter a Computer name. Select Member of Domain, and enter the Domain name you want to join, and select Ok.D
 13. Enter user name and password.
 14. Restart the server.
