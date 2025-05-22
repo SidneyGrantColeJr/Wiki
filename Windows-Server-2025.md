@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T11:30:14.835Z
+date: 2025-05-22T11:54:58.823Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -264,8 +264,27 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - **Configure Basic Storage (Default)**
 
 1. In Server Manager, select Tools and then select Computer Management.
+![step_1.png](/storage/step_1.png)
+
 2.  In the Computer Management pane, select Disk Management.
-3.  If a new disk is detected, you will be prompted to initialize it. Choose GPT (Recommended for most modern servers); or MBR (For legacy systems.)
+![step_2.png](/storage/step_2.png)
+
+3.  If a new disk is detected, you will be prompted to initialize it. Choose GPT (Recommended for most modern servers); or MBR (For legacy systems.), and select Ok.
+![step_3.png](/storage/step_3.png)
+
+4. Right-click the Unallocated space, and select New Simple Volume.
+
+5. In the New Simple Volume Wizard, select Next.
+
+6. In the Specify Volume Size pane, select the size for your Volume, and select Next.
+
+7. In the Assign Drive Letter or Path, select a drive letter, and then select Next.
+
+8. In the Format Partition pane, select your File System Type (exFAT, NTFS (New Technology File System), ReFs (Resilient File System)), select your Allocation unit size, input your Volume LabelTest, select either Perform a quick format or Enable file and folder compression, and then select Ok.
+
+9. In the Completing the New Simple Volume Wizard, review settings, and then select Finish.
+
+10.  The New Simple Volume will no appear in your Disk Management Window.
 
 - **Configure a Dynamic Disk**
 
