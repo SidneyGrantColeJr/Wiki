@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T20:09:57.635Z
+date: 2025-05-22T20:48:04.166Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -332,6 +332,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![dynamic_storage_volume_options.png](/storage/dynamic_storage_volume_options.png)
 
 - **Create a Storage Pool**
+- **Create a Storage Space**
 
 1. In Server Manager,in the File and Storage Services, select Storage Pools and then from the Tasks drop-down, select New Storage Pool.
 2.  Follow the wizard for setup.
