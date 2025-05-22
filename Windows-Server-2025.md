@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T23:38:16.534Z
+date: 2025-05-22T23:59:11.217Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -353,10 +353,21 @@ dateCreated: 2025-05-16T10:33:58.170Z
 7.  The Storage Pool created will appear in your list of Storage Pools.
 ![step_7.png](/storage/storagepool/step_7.png)
 
+Or you can type Manage Storage Spaces in the Search bar, and select Add a new Storage Pool.
+
 - **Create a Storage Space**
 
-1. In Server Manager,in the File and Storage Services, select Storage Pools and then from the Tasks drop-down, select New Storage Pool.
-2.  Follow the wizard for setup.
+1. In Server Manager,in the File and Storage Services, select Storage Pools and then right click the Storage Pool, and select New Virtual Disk.
+2. In the Select the Storage pool, select the Storage Pool, and select Next.
+3. In the New Virtual Disk Wizard, in the Before you Begin pane, select Next.
+4. In the Specify the virtual disk name, enter the Name for the Virtual Disk, and select Next.
+5. In the Specify enclosure resiliency pane, select Next.
+6. In the Select the storage layout, select Layout (Simple, Mirror, Parity), and then select Next.
+7. In the Specify the provisioning type, select Provisioning Type, and then select Next.
+8. In the Specify the size of the virtual disk, enter the size of your virtual disk, and select Next.
+9. In the Confirm selections pane, select Create.
+10. In the View results pane, select Close.
+11. The Virtual Disk is created.
 
 > Note:  You must have more than one virtual disk to setup a storage pool.
 
