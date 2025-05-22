@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T12:11:13.212Z
+date: 2025-05-22T12:15:05.201Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -267,7 +267,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![step_1.png](/storage/step_1.png)
 
 2.  In the Computer Management pane, select Disk Management.
-
+![step_2.png](/storage/step_2.png)
 
 3.  If a new disk is detected, you will be prompted to initialize it. Choose GPT (Recommended for most modern servers); or MBR (For legacy systems.), and select Ok.
 ![step_3.png](/storage/step_3.png)
