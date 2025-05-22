@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T00:13:40.741Z
+date: 2025-05-22T00:16:43.681Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -192,25 +192,25 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![step_4.png](/activedirectory/networking/step_4.png)
 
 5. From the Network Connections pane, right click and select Properties.
-![step_5.png](/activedirectory/networking/step_5.png)
+
 
 6. From the Ethernet Properties dialog box, double click Internet Protocol Version 4 (TCP/IPv4).
-![step_6.png](/activedirectory/networking/step_6.png)
+
 
 7. Select Use the following IP Address and enter a static IP address, Subnect mask and the Default Gateway for your Server. Also, select Use the following DNS Server.  You must use the Primary Domain Controller's DNS IP Address. Select Ok.
-![step_7.png](/activedirectory/networking/step_7.png)
+
 
 8. In the Ethernet Properties dialog box, select Ok and close out of the open windows.
-![step_8.png](/activedirectory/networking/step_8.png)
+)
 
 9. Open File Explorer, right click This PC and select Properties.
-![step_9.png](/activedirectory/networking/step_9.png)
+
 
 10. Select Advanced System Settings.
-![step_10.png](/activedirectory/networking/step_10.png)
+
 
 11. In the System Properties pane, select Computer Name.
-![step_11.png](/activedirectory/networking/step_11.png)
+
 
 12. To rename this computer or change its domain or workgroup, click Change.
 
