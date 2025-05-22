@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T12:27:37.551Z
+date: 2025-05-22T19:25:11.208Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -216,6 +216,10 @@ dateCreated: 2025-05-16T10:33:58.170Z
 14. Enter a Computer name. Select Member of Domain, and enter the Domain name you want to join, and select Ok.D
 13. Enter user name and password.
 14. Restart the server.
+
+> When you add a second Domain Controller to an Active Diectory environment, replication is automatic.  Active Directory used multi-master replication, meaning changes made on one Domain Controller are synchronized across all Domain Controllers in the Domain.  The Knowledge Consistency Checker dynamically creates replication links between the Domain Controllers, and the system determines the best replication paths based on the site links and the costs.  By default, replication occurs every 15 minutes within a site, but it can be changed to your needs. To force replication, you can use the command, repadmin.
+{.is-info}
+
 
 
 - Managing users, groups, and organizational units (OUs)
