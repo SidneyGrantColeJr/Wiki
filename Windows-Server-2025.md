@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T19:25:44.534Z
+date: 2025-05-22T19:26:00.376Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -298,7 +298,6 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![step_10.png](/storage/step_10.png)
 
 ![comparison_chart.png](/storage/comparison_chart.png)
-
 
 - **Configure a Dynamic Disk**
 
