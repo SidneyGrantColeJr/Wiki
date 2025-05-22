@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-21T23:56:28.480Z
+date: 2025-05-22T00:04:45.711Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -146,16 +146,37 @@ dateCreated: 2025-05-16T10:33:58.170Z
 **Add a Windows Server to a Domain**
 - **Install Active Directory Domain Services**
 1. In Server Manager, from the Manage drop-down, select Add Roles and Features.
+![step_1.png](/activedirectory/step_1.png)
+
 2. In the Add Roles and Features Wizard, in the Before you begin pane, select Next.
+![step_2.png](/activedirectory/step_2.png)
+
 3. In the Select installation type pane, select Role-based or feature-based installation, and then select Next.
+![step_3.png](/activedirectory/step_3.png)
+
 4. In the Select destination server, select server and then select Next.
+![step_4.png](/activedirectory/step_4.png)
+
 5. In the Select server roles, select Active Directory Domain Services, and select Domain Name Services and then select Next.
+![step_5.png](/activedirectory/step_5.png)
+
 6. In the Add Roles and Features Wizard, select Add Features.
+![step_6.png](/activedirectory/step_6.png)
+
 7. In the Select server roles pane, select Next.
+![step_5.png](/activedirectory/step_5.png)
+
 8. In the Select features pane, select Next.
+![step_7.png](/activedirectory/step_7.png)
+
 9. In the Active Directory Domain Services pane, select Next.
+![step_8.png](/activedirectory/step_8.png)
+
 10. In the Confirm installation selections, select Install.
+![step_9.png](/activedirectory/step_9.png)
+
 11. In the Installation progress pane, select Close.
+
 - **Joint the Windows Server to the Domain**
 1. From the Start, type Control Panel and select.
 2. From the Control Panel pane, select Network & Internet.
