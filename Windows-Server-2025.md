@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T21:07:36.693Z
+date: 2025-05-22T23:37:31.586Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -332,6 +332,22 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![dynamic_storage_volume_options.png](/storage/dynamic_storage_volume_options.png)
 
 - **Create a Storage Pool**
+1. In Server Manager, select File and Storage Services.
+![step_1.png](/storage/storagepool/step_1.png)
+
+2. Select Storage Pools.
+
+3. In the New Storage Pool Wizard, in the Before you Begin, select Next.
+
+4. In the Specify a storage pool name and subsystem pane, enter a name for your Storage Pool and select the group of available disks.
+
+5. In the Select physical disks for the storage pool, select your physical disks you want to add to the storage pool.
+
+6. In the Confirm selections pane, select Create.
+
+7.  The Storage Pool created will appear in your list of Storage Pools.
+
+
 - **Create a Storage Space**
 
 1. In Server Manager,in the File and Storage Services, select Storage Pools and then from the Tasks drop-down, select New Storage Pool.
