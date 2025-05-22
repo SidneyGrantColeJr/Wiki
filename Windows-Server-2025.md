@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-22T00:11:42.014Z
+date: 2025-05-22T00:13:40.741Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -158,13 +158,13 @@ dateCreated: 2025-05-16T10:33:58.170Z
 ![step_4.png](/activedirectory/step_4.png)
 
 5. In the Select server roles, select Active Directory Domain Services, and select Domain Name Services and then select Next.
-![step_6.png](/activedirectory/networking/step_6.png)
-
-6. In the Add Roles and Features Wizard, select Add Features.
 ![step_7.png](/activedirectory/networking/step_7.png)
 
-7. In the Select server roles pane, select Next.
+6. In the Add Roles and Features Wizard, select Add Features.
 ![step_8.png](/activedirectory/networking/step_8.png)
+
+7. In the Select server roles pane, select Next.
+
 
 8. In the Select features pane, select Next.
 ![step_9.png](/activedirectory/networking/step_9.png)
