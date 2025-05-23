@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-23T00:14:58.267Z
+date: 2025-05-23T00:16:24.566Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -373,12 +373,13 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 
 6. In the Select the storage layout, select Layout (Simple, Mirror, Parity), and then select Next.
-![step_6.png](/storage/storagepool/step_6.png)
+
 
 7. In the Specify the provisioning type, select Provisioning Type, and then select Next.
 ![step_5.png](/storage/storagepool/step_5.png)
 
 8. In the Specify the size of the virtual disk, enter the size of your virtual disk, and select Next.
+![step_6.png](/storage/storagepool/step_6.png)
 
 9. In the Confirm selections pane, select Create.
 10. In the View results pane, select Close.
