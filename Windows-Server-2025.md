@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-23T00:13:35.729Z
+date: 2025-05-23T00:14:21.433Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -361,10 +361,10 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 ![step_2.png](/storage/storagepool/step_2.png)
 
 2. In the Select the Storage pool, select the Storage Pool, and select Next.
-
+![step_3.png](/storage/storagepool/step_3.png)
 
 3. In the New Virtual Disk Wizard, in the Before you Begin pane, select Next.
-![step_3.png](/storage/storagepool/step_3.png)
+
 
 4. In the Specify the virtual disk name, enter the Name for the Virtual Disk, and select Next.
 ![step_4.png](/storage/storagepool/step_4.png)
