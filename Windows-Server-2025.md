@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-23T00:19:40.416Z
+date: 2025-05-23T00:21:44.242Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -368,12 +368,9 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 4. In the Specify the virtual disk name, enter the Name for the Virtual Disk, and select Next.
 
-
 5. In the Specify enclosure resiliency pane, select Next.
 
-
 6. In the Select the storage layout, select Layout (Simple, Mirror, Parity), and then select Next.
-
 
 7. In the Specify the provisioning type, select Provisioning Type, and then select Next.
 ![step_5.png](/storage/storagepool/step_5.png)
