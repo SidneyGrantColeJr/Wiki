@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-23T00:16:24.566Z
+date: 2025-05-23T00:19:40.416Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -382,7 +382,11 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 ![step_6.png](/storage/storagepool/step_6.png)
 
 9. In the Confirm selections pane, select Create.
+![step_7.png](/storage/storagepool/virtualdisk/step_7.png)
+
 10. In the View results pane, select Close.
+![step_8.png](/storage/storagepool/virtualdisk/step_8.png)
+
 11. The Virtual Disk is created.
 ![step_8.png](/storage/storagepool/step_8.png)
 
