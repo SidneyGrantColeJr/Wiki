@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-26T23:10:59.269Z
+date: 2025-05-26T23:12:48.953Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -26,7 +26,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - [Automation and Scripting](#automation-and-scripting)
 - [Backup and Disaster Recovery](#backup-and-disaster-recovery)
 - [Monitoring and Performance](#monitoring-and-performance)
-- [Troubleshooting and Maintenance](#troubleshooting-and-maintenance)
+- [Troubleshooting and Maintenance](http://192.168.4.235/e/en/Windows-Server-2025#troubleshooting-and-maintenance)
 
 
 ## Overview
