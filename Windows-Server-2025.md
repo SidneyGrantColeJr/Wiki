@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-26T23:03:45.127Z
+date: 2025-05-26T23:06:34.548Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -12,7 +12,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 ## Contents
 - [Overview](#overview)
-- [Installation and Configuration](installation-and-configuration)
+- [Installation and Configuration](#installation-and-configuration)
 - [Active Directory AD DS](#active-directory-ad-ds)
 - [Networking Services](#networking-services)
 - [File and Storage Services](#file-and-storage-services)
