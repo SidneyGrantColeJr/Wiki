@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-26T23:25:28.979Z
+date: 2025-05-26T23:27:26.662Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -269,7 +269,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 >   - **iSCSI Virtual Disk (Target Server):** File-back Logical Unit Number (LUN) you export over the network.  Appears to remote hosts as a raw SCSI disk
 {.is-info}
 
-- **Configure Basic Storage**
+##**Configure Basic Storage**
 
 1. In Server Manager, select Tools and then select Computer Management.
 ![step_1.png](/storage/step_1.png)
@@ -303,7 +303,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 ![comparison_chart.png](/storage/comparison_chart.png)
 
-- **Configure Dynamic Storage**
+##**Configure Dynamic Storage**
 
 ![dynamic_disk_explained.png](/storage/dynammicdisk/dynamic_disk_explained.png)
 ![types_of_dynamic_disks.png](/storage/dynammicdisk/types_of_dynamic_disks.png)
@@ -335,7 +335,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 ![dynamic_storage_volume_options.png](/storage/dynamic_storage_volume_options.png)
 
-- **Configure a Storage Pool**
+##**Configure a Storage Pool**
 1. In Server Manager, select File and Storage Services.
 ![step_1.png](/storage/storagepool/step_1.png)
 
@@ -359,7 +359,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 Or you can type Manage Storage Spaces in the Search bar, and select Add a new Storage Pool.
 
-- **Configure a Storage Space**
+##**Configure a Storage Space**
 
 1. In Server Manager,in the File and Storage Services, select Storage Pools and then right click the Storage Pool, and select New Virtual Disk.
 ![step_2.png](/storage/storagepool/step_2.png)
@@ -397,7 +397,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 > iSCSI stands for Internet Small Computer System Interface.  iSCSI Storage is a way to share block-level storage over a standard IP Network. MPIO stands for Multipath I/O.  MPIO is a storage-fault-tolerance and load-balance feature that lets an operating system use two or more physical paths to reach the same block-storage device, in essence it offers redundancy.
 {.is-info}
 
-**Install iSCSI Feature**
+##**Configure iSCSI Storage with MPIO**
 
 1.  In Server Manager, select Manage menu and then select Add Roles and Features.
 ![slide_1.png](/configure-iscsi-storage/slide_1.png){.align-left}
