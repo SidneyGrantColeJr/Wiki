@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-26T22:55:08.665Z
+date: 2025-05-26T22:58:20.032Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -14,19 +14,19 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - [Overview](#overview)
 - [Installation and Configuration](#installation-and-configuration)
 - [Active Directory AD DS](#active-directory-ad-ds)
-- [Networking Services](#Networking-Services-4)
-- [File and Storage Services](#File-and-Storage-Services-5)
-  - [Configure Basic Storage](#Configure-Basic-Storage)
-  - [Configure Dynamic Storage](#Configure-Dynamnic-Storage)
-  - [Create a Storage Pool](Create-a-Storage-Pool)
-  - [Create a Storage Space](Create-a-Storage-Space)
-  - [Configure iSCSI Storage with MPIO](#Configure-iSCSI-Storage-with-MPIO)
-- [Server Security](#Server-Security-6)
-- [Server Virtualization and Containers](#Server-Virtualization-and-Containers-7)
-- [Automation and Scripting](#Automation-and-Scripting-8)
-- [Backup and Disaster Recovery](#Backup-and-Disaster-Recovery-9)
-- [Monitoring and Performance](#Monitoring-and-Performance-10)
-- [Troubleshooting and Mainteance](#Troubleshooting-and-Maintenance-11)
+- [Networking Services](#networking-services)
+- [File and Storage Services](#file-and-storage-services)
+  - [Configure Basic Storage](#configure-basic-storage)
+  - [Configure Dynamic Storage](#configure-dynamnic-storage)
+  - [Create a Storage Pool](create-a-storage-pool)
+  - [Create a Storage Space](create-a-storage-space)
+  - [Configure iSCSI Storage with MPIO](#configure-iscsi-storage-with-mpio)
+- [Server Security](#server-security)
+- [Server Virtualization and Containers](#server-virtualization-and-sontainers)
+- [Automation and Scripting](#automation-and-scripting)
+- [Backup and Disaster Recovery](#backup-and-disaster-recovery)
+- [Monitoring and Performance](#monitoring-and-performance)
+- [Troubleshooting and Mainteance](#troubleshooting-and-aintenance)
 
 
 ## Overview
