@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-26T23:20:16.124Z
+date: 2025-05-26T23:23:18.966Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -16,7 +16,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - [Active Directory AD DS](#active-directory-ad-ds)
 - [Networking Services](#networking-services)
 - [File and Storage Services](#file-and-storage-services)
-  - [Configure Basic Storage](/##configure-basic-storage)
+  - [Configure Basic Storage](##configure-basic-storage)
   - [Configure Dynamic Storage](##configure-dynamnic-storage)
   - [Create a Storage Pool](##create-a-storage-pool)
   - [Create a Storage Space](##create-a-storage-space)
@@ -749,23 +749,23 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 - Windows Firewall Configuration
 - Security auditng and monitoring
 - BitLocker encryption
-## Server Virtualization & Containers
+## Server Virtualization and Containers
 - Hyper-V overview and setup
 - Managing virtual machines
 - Windows Containers basics
-## Automation & Scripting
+## Automation and Scripting
 - PowerShell fundamentals
 - Common PowerShell commands for server administration
 - Scheduled Tasks and Automation workflows
-## Backup & Disaster Recovery
+## Backup and Disaster Recovery
 - Window Server Backup Features
 - Recovery options and best practices
 - Failover Clustering basics
-## Monitoring & Performance
+## Monitoring and Performance
 - Performance monitoring tools
 - Event Viewer and logs
 - Resource optimization
-## Troubleshooting & Maintenance
+## Troubleshooting and Maintenance
 - Common issues and resolution steps
 - Patch management and updates
 - System health checks
