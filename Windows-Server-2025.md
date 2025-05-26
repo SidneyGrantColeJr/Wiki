@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-26T23:01:40.225Z
+date: 2025-05-26T23:02:33.971Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -78,7 +78,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 
 
-## Installation & Configuration
+## Installation and Configuration
 - System requirements and hardware planning
 - Installation options (GUI, Core, Nano)
 - Post-installation configuration
