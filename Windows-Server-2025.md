@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-26T23:31:08.089Z
+date: 2025-05-26T23:31:56.141Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -269,7 +269,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 >   - **iSCSI Virtual Disk (Target Server):** File-back Logical Unit Number (LUN) you export over the network.  Appears to remote hosts as a raw SCSI disk
 {.is-info}
 
-- ## Configure Basic Storage
+## Configure Basic Storage
 
 1. In Server Manager, select Tools and then select Computer Management.
 ![step_1.png](/storage/step_1.png)
