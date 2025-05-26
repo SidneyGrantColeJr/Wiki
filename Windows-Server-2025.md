@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-26T22:58:20.032Z
+date: 2025-05-26T23:00:17.524Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -22,7 +22,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
   - [Create a Storage Space](create-a-storage-space)
   - [Configure iSCSI Storage with MPIO](#configure-iscsi-storage-with-mpio)
 - [Server Security](#server-security)
-- [Server Virtualization and Containers](#server-virtualization-and-sontainers)
+- [Server Virtualization and Containers](#server-virtualization-and-containers)
 - [Automation and Scripting](#automation-and-scripting)
 - [Backup and Disaster Recovery](#backup-and-disaster-recovery)
 - [Monitoring and Performance](#monitoring-and-performance)
