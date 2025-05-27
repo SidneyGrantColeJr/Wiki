@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:33:53.324Z
+date: 2025-05-27T15:39:20.757Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -23,6 +23,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - [Configure iSCSI Storage with MPIO](#configure-iscsi-storage-with-mpio)
 - [Server Security](#server-security)
 - [Configure Active Directory Certificate Services](#configure-active-directory-certificate-services)
+- [Configure Active Directory Federation Services](#configure-active-directory-federation-services)
 - [Server Virtualization and Containers](#server-virtualization-and-containers)
 - [Automation and Scripting](#automation-and-scripting)
 - [Backup and Disaster Recovery](#backup-and-disaster-recovery)
