@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T16:07:40.537Z
+date: 2025-05-27T16:16:12.126Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -422,7 +422,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 > iSCSI stands for Internet Small Computer System Interface.  iSCSI Storage is a way to share block-level storage over a standard IP Network. MPIO stands for Multipath I/O.  MPIO is a storage-fault-tolerance and load-balance feature that lets an operating system use two or more physical paths to reach the same block-storage device, in essence it offers redundancy.
 {.is-info}
 
-##**Configure iSCSI Storage with MPIO**
+## **Configure iSCSI Storage with MPIO**
 
 1.  In Server Manager, select Manage menu and then select Add Roles and Features.
 ![slide_1.png](/configure-iscsi-storage/slide_1.png){.align-left}
