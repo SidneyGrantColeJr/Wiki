@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T13:40:39.034Z
+date: 2025-05-27T13:51:48.193Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -762,6 +762,13 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 **Deploy an offline root CA**
 1.	In Server Manager, from the manage drop-down, select Add roles and features.
+![step_1.png](/active-directory-certificate-services/step_1.png)
+
+2.	In the Before you begin pane, select Next.
+![step_2.png](/active-directory-certificate-services/step_2.png)
+
+3.	In the Select installation type pane, select Next.
+![step_3.png](/active-directory-certificate-services/step_3.png)
 
 ## Server Virtualization and Containers
 - Hyper-V overview and setup
