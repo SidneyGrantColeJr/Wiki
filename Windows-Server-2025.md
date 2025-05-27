@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T13:51:48.193Z
+date: 2025-05-27T13:56:15.430Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -769,6 +769,30 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 3.	In the Select installation type pane, select Next.
 ![step_3.png](/active-directory-certificate-services/step_3.png)
+
+4.	In the Select destination server pane, select Next.
+![step_4.png](/active-directory-certificate-services/step_4.png)
+
+5.	In the Select server roles pane, select Active Directory Certificate Services.
+![step_5.png](/active-directory-certificate-services/step_5.png)
+
+6.	In the Add Roles and Features Wizard pane, select Add Features , and then select Next.
+![step_6.png](/active-directory-certificate-services/step_6.png)
+
+7.	In the Select features pane, select Next.
+![step_7.png](/active-directory-certificate-services/step_7.png)
+
+8.	In the Active Directory Certificate Services pane, select Next.
+![step_8.png](/active-directory-certificate-services/step_8.png)
+
+9.	In the Select Role services pane, ensure Certification Authority is selected, and then select Next.
+![step_9a.png](/active-directory-certificate-services/step_9a.png)
+
+10.	In the Confirm installation selections pan, select Install.
+![step_10.png](/active-directory-certificate-services/step_10.png)
+
+
+
 
 ## Server Virtualization and Containers
 - Hyper-V overview and setup
