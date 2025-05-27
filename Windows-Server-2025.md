@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T13:21:24.400Z
+date: 2025-05-27T13:24:09.009Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -750,13 +750,17 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 - Security auditng and monitoring
 - BitLocker encryption
 - Configure Active Directory Certificate Services
-Active Directory Certificate Services (AD CS) is a Windows Server role that provides public key infrastructure (PKI) for issuing and managing digital certificates.  Certificates are used for secure communication, authentication, and encryption across networks.  Some Key Features of AD CS are the following:
-Certification Authorities (CAs) - Issue and manage certificates for users, computers, and services.
-WebEnrollment - Allows users to request certificates via a web browser.
-Onlline Responder - Provides real-time certificate revocation status.
-Network Device Enrollment Service (NDES) - Enables network devices without domain accounts to obtain certificates.
-TPM Key Attestation - Ensures private keys are protected by trusted hardware.
-Certificate Enrollment Services - Helps users and computers enroll for certificates securely.
+> **Active Directory Certificate Services (AD CS)** is a Windows Server role that provides public key infrastructure (PKI) for issuing and managing digital certificates.  Certificates are used for secure communication, authentication, and encryption across networks.  Some Key Features of AD CS are the following:
+> - **Certification Authorities (CAs)** - Issue and manage certificates for users, computers, and services.
+> - **WebEnrollment** - Allows users to request certificates via a web browser.
+> - **Onlline Responder** - Provides real-time certificate revocation status.
+> - **Network Device Enrollment Service (NDES)** - Enables network devices without domain accounts to obtain certificates.
+> - **TPM Key Attestation** - Ensures private keys are protected by trusted hardware.
+> - **Certificate Enrollment Services** - Helps users and computers enroll for certificates securely.
+{.is-info}
+
+
+
 ## Server Virtualization and Containers
 - Hyper-V overview and setup
 - Managing virtual machines
