@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T13:29:02.071Z
+date: 2025-05-27T13:29:15.030Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -750,7 +750,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 - Windows Firewall Configuration
 - Security auditng and monitoring
 - BitLocker encryption
-## Configure Active Directory Certificate Services
+### Configure Active Directory Certificate Services
 > **Active Directory Certificate Services (AD CS)** is a Windows Server role that provides public key infrastructure (PKI) for issuing and managing digital certificates.  Certificates are used for secure communication, authentication, and encryption across networks.  Some Key Features of AD CS are the following:
 > - **Certification Authorities (CAs)** - Issue and manage certificates for users, computers, and services.
 > - **WebEnrollment** - Allows users to request certificates via a web browser.
