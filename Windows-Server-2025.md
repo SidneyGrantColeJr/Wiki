@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T16:01:34.049Z
+date: 2025-05-27T16:02:32.100Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1192,17 +1192,29 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 <a href="#top">Back to top</a>
 ## Automation and Scripting
 - PowerShell fundamentals
+<a href="#top">Back to top</a>
 - Common PowerShell commands for server administration
+<a href="#top">Back to top</a>
 - Scheduled Tasks and Automation workflows
+<a href="#top">Back to top</a>
 ## Backup and Disaster Recovery
 - Window Server Backup Features
+<a href="#top">Back to top</a>
 - Recovery options and best practices
+<a href="#top">Back to top</a>
 - Failover Clustering basics
+<a href="#top">Back to top</a>
 ## Monitoring and Performance
 - Performance monitoring tools
+<a href="#top">Back to top</a>
 - Event Viewer and logs
+<a href="#top">Back to top</a>
 - Resource optimization
+<a href="#top">Back to top</a>
 ## Troubleshooting and Maintenance
 - Common issues and resolution steps
+<a href="#top">Back to top</a>
 - Patch management and updates
+<a href="#top">Back to top</a>
 - System health checks
+<a href="#top">Back to top</a>
