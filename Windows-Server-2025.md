@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:31:23.211Z
+date: 2025-05-27T15:33:36.332Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1104,6 +1104,26 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 ![step_107.png](/active-directory-certificate-services/step_107.png)
 
 **Publish a root CA certificate through Group Policy**
+
+1.	In the Server Manager, select Tools, and then select Group Policy Management.
+![step_108.png](/active-directory-certificate-services/step_108.png)
+
+2.	In the Group Policy Management pane, expand Forest, expand Domains, expand your Domain, right-click and select Default Domain Policy, and then select Edit.
+![step_109.png](/active-directory-certificate-services/step_109.png)
+
+3.	In the Computer Configuration, expand Policies, expand Window Settings, expand Security Settings, expand Public Key Policies, right-click Trusted Root Certification Authorities, select Import, and then select Next.
+![step_110.png](/active-directory-certificate-services/step_110.png)
+
+4.	In the File to Import, select Browse.
+![step_111.png](/active-directory-certificate-services/step_111.png)
+
+5.	In the file name text box, enter \\IntermediateCA\C$, and then select Enter.
+![step_112.png](/active-directory-certificate-services/step_112.png)
+
+6.	Select RootCA.cer, and then select Open.
+7.	Select next two times, and then select Finish.
+8.	When the Certificate Import Wizard window appears, select Ok.
+9.	Close the Group Policy Management Editor and the Group Management Console.
 
 
 
