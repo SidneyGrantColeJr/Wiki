@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T14:03:50.465Z
+date: 2025-05-27T14:20:04.821Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -808,6 +808,94 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 16.	In the Private Key pane, ensure that Create a new private key is selected, and then select Next.
 ![step_16.png](/active-directory-certificate-services/step_16.png)
+
+17.	In the Cryptography for CA pane, keep the default selections for Select a cryptographic provider and Select the has algorithm for signing certificates issued by this CA, but set the Key length to 4096, and then select Next.
+![step_17.png](/active-directory-certificate-services/step_17.png)
+
+18.	In the CA Name pane, in the Common name for this CA text box, enter a name for the Root CA, ex. COLERootCA, and select Next.
+![step_18.png](/active-directory-certificate-services/step_18.png)
+
+19.	In the Validity Period pane, select Next.
+![step_19.png](/active-directory-certificate-services/step_19.png)
+
+20.	In the CA Database pane, select Next.
+![step_20.png](/active-directory-certificate-services/step_20.png)
+
+21.	In the Confirmation pane, select Configure.
+![step_21.png](/active-directory-certificate-services/step_21.png)
+
+22.	In the results pane, select Close.
+![step_22.png](/active-directory-certificate-services/step_22.png)
+
+23.	In the Installation progress pane, select Close.
+![step_23.png](/active-directory-certificate-services/step_23.png)
+
+24.	In Server Manager, select Tools, and then select Certification Authority.
+![step_24.png](/active-directory-certificate-services/step_24.png)
+
+25.	In the certsrv –(Certification Authortiy (Local), in the center pane, right click your Certification Authority, i.e (COLERootCA, and then select Properties.
+![step_25.png](/active-directory-certificate-services/step_25.png)
+
+26.	In the Properties dialog box, select the Extensions tab.
+![step_26.png](/active-directory-certificate-services/step_26.png)
+
+27.	In the Select extension drop-down list, select CRL Distribution Point (CDP), and then select Add.
+![step_27.png](/active-directory-certificate-services/step_27.png)
+
+28.	In the Location text box, enter appropriate server name, i.e. http://IntermediateCA.cole.local/CertData/ 
+![step_28.png](/active-directory-certificate-services/step_28.png)
+
+29.	In the Variable drop-down list, select CAName, and then select Insert.
+![step_29.png](/active-directory-certificate-services/step_29.png)
+
+30.	In the Variable drop-down list, select CRLNameSuffix, and then select Insert
+![step_30.png](/active-directory-certificate-services/step_30.png)
+
+31.	In the Variable drop-down list, select DeltaCRLAllowed, and then select Insert.
+![step_31.png](/active-directory-certificate-services/step_31.png)
+
+32.	In the Location text box, position the cursor at the end of the URL, and enter .crl, and then select Ok.
+![step_32.png](/active-directory-certificate-services/step_32.png)
+
+33.	Select the following options, and then select Apply:
+Include in the CDP extension of issued certificates
+Include in the CRLs. Clients use this to find Delta CRL locations.
+![step_33.png](/active-directory-certificate-services/step_33.png)
+
+34.	In the Certification Authority window, select No.
+![step_34.png](/active-directory-certificate-services/step_34.png)
+
+35.	In the Select extension drop-down list, select Authority Information Access (AIA), and then select Add.
+![step_35.png](/active-directory-certificate-services/step_35.png)
+
+36.	In the Location text box, enter enter appropriate server name, i.e. https://IntermediateCA/CertData/
+![step_36.png](/active-directory-certificate-services/step_36.png)
+
+37.	In the Variable drop-down list, select ServerDNSName, and then select Insert.
+![step_37.png](/active-directory-certificate-services/step_37.png)
+
+38.	In the Location text box, enter an underscore, and in the Variable drop-down list, select CaName, and then select Insert. Position the cursor at the end of the URL.
+![step_38.png](/active-directory-certificate-services/step_38.png)
+
+39.	In the Variable drop-down list, select CertificateName, and then select Insert.
+![step_39.png](/active-directory-certificate-services/step_39.png)
+
+40.	In the Location text box, position the cursor at the end of the URL, enter .crt, and then select Ok.
+![step_40.png](/active-directory-certificate-services/step_40.png)
+
+41.	Select the Include in the AIA extension of issued certificates check box, and then select Ok.
+![step_41.png](/active-directory-certificate-services/step_41.png)
+
+42.	Select Yes to restart the Certification Authority service.
+![step_42.png](/active-directory-certificate-services/step_42.png)
+
+
+
+
+
+
+
+
 
 
 
