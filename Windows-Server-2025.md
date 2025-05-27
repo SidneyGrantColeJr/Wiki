@@ -2,14 +2,14 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:46:49.606Z
+date: 2025-05-27T15:53:05.067Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
 ---
 
 
-
+<a name="top"></a>
 ## Contents
 - [Overview](#overview)
 - [Installation and Configuration](#installation-and-configuration)
@@ -78,7 +78,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 > Server Core Installation
 > IoT Embedded Variants
 
-
+[Back to top](#top)
 
 ## Installation and Configuration
 - System requirements and hardware planning
