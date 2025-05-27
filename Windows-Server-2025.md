@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T14:39:15.607Z
+date: 2025-05-27T14:42:00.970Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -923,9 +923,10 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 ![step_53.png](/active-directory-certificate-services/step_53.png)
 
 54.	In the File Explore address bar, enter \\IntermediateCA\C$, and then select Enter. Navigate to the CertData Folder.
-![step_54.png](/active-directory-certificate-services/step_54.png)
+![step_53a.png](/active-directory-certificate-services/step_53a.png)
 
 55.	Right-click and then paste the files copied earlier.
+![step_54.png](/active-directory-certificate-services/step_54.png)
 
 56.	Close the File Explorer.
 
