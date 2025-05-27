@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T13:29:15.030Z
+date: 2025-05-27T13:40:39.034Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -760,7 +760,8 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 > - **Certificate Enrollment Services** - Helps users and computers enroll for certificates securely.
 {.is-info}
 
-
+**Deploy an offline root CA**
+1.	In Server Manager, from the manage drop-down, select Add roles and features.
 
 ## Server Virtualization and Containers
 - Hyper-V overview and setup
