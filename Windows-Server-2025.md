@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:05:39.235Z
+date: 2025-05-27T15:08:03.312Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1017,6 +1017,11 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 ![step_81.png](/active-directory-certificate-services/step_81.png)
 
 **Install a subordinate CA Certificate**
+
+1.	On the Intermediate CA, Open File Explorer, browse to Local Disk C:
+![step_82.png](/active-directory-certificate-services/step_82.png)
+
+
 
 
 
