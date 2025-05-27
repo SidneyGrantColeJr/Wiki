@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T13:56:15.430Z
+date: 2025-05-27T14:03:50.465Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -791,6 +791,23 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 10.	In the Confirm installation selections pan, select Install.
 ![step_10.png](/active-directory-certificate-services/step_10.png)
 
+11.	After the installation completes, select Configure Active Directory Certificate Services in the destination link.
+![step_11.png](/active-directory-certificate-services/step_11.png)
+
+12.	In the AD CS Configuration Wizard, in the Credentials pane, select Next.
+![step_12.png](/active-directory-certificate-services/step_12.png)
+
+13.	In the Role Services pane, select Certification Authority, and then select Next.
+![step_13.png](/active-directory-certificate-services/step_13.png)
+
+14.	In the Setup Type pane, ensure Standalone CA is selected, and then select Next.
+![step_14.png](/active-directory-certificate-services/step_14.png)
+
+15.	In the CA Type pane, ensure that Root CA is selected, and then select Next.
+![step_15.png](/active-directory-certificate-services/step_15.png)
+
+16.	In the Private Key pane, ensure that Create a new private key is selected, and then select Next.
+![step_16.png](/active-directory-certificate-services/step_16.png)
 
 
 
