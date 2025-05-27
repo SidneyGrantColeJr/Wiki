@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:26:48.719Z
+date: 2025-05-27T15:27:19.210Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1075,6 +1075,9 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 ![step_99.png](/active-directory-certificate-services/step_99.png)
 
 20.	In the Certification Authority pane, select the Details tab, and then select Copy to File.
+![step_100.png](/active-directory-certificate-services/step_100.png)
+
+21.	In the Certificate Export wizard, in the Welcome pane, select Next.
 
 
 
