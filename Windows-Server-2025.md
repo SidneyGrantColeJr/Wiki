@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:27:19.210Z
+date: 2025-05-27T15:31:23.211Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1078,6 +1078,38 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 ![step_100.png](/active-directory-certificate-services/step_100.png)
 
 21.	In the Certificate Export wizard, in the Welcome pane, select Next.
+![step_101.png](/active-directory-certificate-services/step_101.png)
+
+22.	In the Export File Format pane, select Cryptographic Message Syntax Standard- PKCS #7 Certificates (.P7B), select Include all certificates in the certification path if possible, and then select Next.
+![step_101.png](/active-directory-certificate-services/step_101.png)
+
+23.	In the File to Export pane, in the File name field, enter \\server\C$\SubCA.p7b, and then select Next, select Finish, and then select Ok.
+![step_102.png](/active-directory-certificate-services/step_102.png)
+
+24.	Switch back to the Server acting as the Intermediate CA Authority.
+
+25.	In the Server Manager, select Tools, and then select Certification Authority.
+![step_103.png](/active-directory-certificate-services/step_103.png)
+
+26.	In the Certification Authority pane, right-click the CA Authority, point to All Tasks, and then select Install CA Certificate.
+![step_104.png](/active-directory-certificate-services/step_104.png)
+
+27.	Go to Local Disk C:, select SubCA.p7b file and then select Open.
+![step_105.png](/active-directory-certificate-services/step_105.png)
+
+28.	Wait for 20 seconds, and then on the toolbar, select Start this service button to start the CA service.
+![step_106.png](/active-directory-certificate-services/step_106.png)
+
+29.	Swith back to the Root CA Server and shut down the server.
+![step_107.png](/active-directory-certificate-services/step_107.png)
+
+**Publish a root CA certificate through Group Policy**
+
+
+
+
+
+
 
 
 
