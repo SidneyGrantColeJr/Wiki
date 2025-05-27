@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T12:53:49.202Z
+date: 2025-05-27T13:00:18.410Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -335,7 +335,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 ![dynamic_storage_volume_options.png](/storage/dynamic_storage_volume_options.png)
 
-##**Configure a Storage Pool**
+## Configure a Storage Pool
 1. In Server Manager, select File and Storage Services.
 ![step_1.png](/storage/storagepool/step_1.png)
 
@@ -359,7 +359,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 Or you can type Manage Storage Spaces in the Search bar, and select Add a new Storage Pool.
 
-##**Configure a Storage Space**
+## Configure a Storage Space
 
 1. In Server Manager,in the File and Storage Services, select Storage Pools and then right click the Storage Pool, and select New Virtual Disk.
 ![step_2.png](/storage/storagepool/step_2.png)
@@ -393,7 +393,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 > Note:  You must have more than one virtual disk to setup a storage pool.
 
-- **Configure iSCSI Storage with MPIO**
+## Configure iSCSI Storage with MPIO
 > iSCSI stands for Internet Small Computer System Interface.  iSCSI Storage is a way to share block-level storage over a standard IP Network. MPIO stands for Multipath I/O.  MPIO is a storage-fault-tolerance and load-balance feature that lets an operating system use two or more physical paths to reach the same block-storage device, in essence it offers redundancy.
 {.is-info}
 
