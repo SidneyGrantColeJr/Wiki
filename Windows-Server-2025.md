@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T16:04:09.669Z
+date: 2025-05-27T16:06:25.090Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -82,6 +82,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 <a href="#top">Back to top</a>
 
 ## Installation and Configuration
+<a href="#top">Back to top</a>
 - System requirements and hardware planning
 - Installation options (GUI, Core, Nano)
 - Post-installation configuration
@@ -89,6 +90,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 <a href="#top">Back to top</a>
 ## Active Directory (AD DS)
+<a href="#top">Back to top</a>
 - Introduction to AD DS
 - Installing and Configuring Domain Controllers
 
@@ -236,6 +238,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - Group Policy Basics and Management
 <a href="#top">Back to top</a>
 ## Networking Services
+<a href="#top">Back to top</a>
 - IP Addressing and DHCP
 
 > **IPv4 Addressing consists of a Total of 32 Bits/4 Octets, 8 Bits/Octect**
@@ -283,6 +286,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 {.is-info}
 
 ### Configure Basic Storage
+<a href="#top">Back to top</a>
 
 1. In Server Manager, select Tools and then select Computer Management.
 ![step_1.png](/storage/step_1.png)
@@ -318,6 +322,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 <a href="#top">Back to top</a>
 ### Configure Dynamic Storage
+<a href="#top">Back to top</a>
 
 ![dynamic_disk_explained.png](/storage/dynammicdisk/dynamic_disk_explained.png)
 ![types_of_dynamic_disks.png](/storage/dynammicdisk/types_of_dynamic_disks.png)
@@ -351,6 +356,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 <a href="#top">Back to top</a>
 ### Configure a Storage Pool
+<a href="#top">Back to top</a>
 1. In Server Manager, select File and Storage Services.
 ![step_1.png](/storage/storagepool/step_1.png)
 
@@ -376,6 +382,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 <a href="#top">Back to top</a>
 ### Configure a Storage Space
+<a href="#top">Back to top</a>
 
 1. In Server Manager,in the File and Storage Services, select Storage Pools and then right click the Storage Pool, and select New Virtual Disk.
 ![step_2.png](/storage/storagepool/step_2.png)
@@ -411,6 +418,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 <a href="#top">Back to top</a>
 ### Configure iSCSI Storage with MPIO
+<a href="#top">Back to top</a>
 > iSCSI stands for Internet Small Computer System Interface.  iSCSI Storage is a way to share block-level storage over a standard IP Network. MPIO stands for Multipath I/O.  MPIO is a storage-fault-tolerance and load-balance feature that lets an operating system use two or more physical paths to reach the same block-storage device, in essence it offers redundancy.
 {.is-info}
 
@@ -762,6 +770,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 <a href="#top">Back to top</a>
 ## Server Security
+<a href="#top">Back to top</a>
 - Security baselines and hardening
 <a href="#top">Back to top</a>
 - Windows Firewall Configuration
