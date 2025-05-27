@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T14:42:00.970Z
+date: 2025-05-27T15:00:38.266Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -944,6 +944,75 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 4.	In the IP Address, enter the IP Address, select Add Host, and then select Ok, then Done.
 5.	Close DNS Manager.
 ![step_58.png](/active-directory-certificate-services/step_58.png)
+
+**Install and Configure AD CS on a separate Server – The Intermediate CA Authority**
+
+1.	In Server Manager, from the manage drop-down, select Add roles and features.
+![step_59.png](/active-directory-certificate-services/step_59.png)
+
+2.	In the Before you begin pane, select Next.
+![step_60.png](/active-directory-certificate-services/step_60.png)
+
+3.	In the Select installation type pane, select Next.
+![step_61.png](/active-directory-certificate-services/step_61.png)
+
+4.	In the Select destination server pane, select Next.
+![step_62.png](/active-directory-certificate-services/step_62.png)
+
+5.	In the Select server roles pane, select Active Directory Certificate Services.
+![step_63.png](/active-directory-certificate-services/step_63.png)
+
+6.	In the Add Roles and Features Wizard pane, select Add Features , and then select Next.
+![step_64.png](/active-directory-certificate-services/step_64.png)
+
+7.	In the Select features pane, select Next.
+![step_65.png](/active-directory-certificate-services/step_65.png)
+
+8.	In the Active Directory Certificate Services pane, select Next.
+![step_66.png](/active-directory-certificate-services/step_66.png)
+
+9.	In the Select Role services pane, ensure both Certification Authority and Certification Autority Web Enrollment is selected, and then select Next.
+![step_67.png](/active-directory-certificate-services/step_67.png)
+
+10.	In the Confirm installation selections pan, select Install.
+![step_68.png](/active-directory-certificate-services/step_68.png)
+
+11.	After the installation completes, select Configure Active Directory Certificate Services in the destination link.
+![step_69.png](/active-directory-certificate-services/step_69.png)
+
+12.	In the AD CS Configuration Wizard, in the Credentials pane, select Next.
+![step_70.png](/active-directory-certificate-services/step_70.png)
+
+13.	In the Role Services pane, select Certification Authority and Certification Authority Web Enrollment, and then select Next.
+![step_71.png](/active-directory-certificate-services/step_71.png)
+
+14.	In the Setup Type pane, select Enterprise CA, and then select Next.
+![step_72.png](/active-directory-certificate-services/step_72.png)
+
+15.	In the CA Type pane, select Subordinate CA, and then select Next.
+![step_73.png](/active-directory-certificate-services/step_73.png)
+
+16.	In the Private Key pane, ensure that Create a new private key is selected, and then select Next.
+![step_74.png](/active-directory-certificate-services/step_74.png)
+
+17.	In the Cryptography for CA pane, keep the default selections, and then select Next.
+![step_75.png](/active-directory-certificate-services/step_75.png)
+
+18.	In the CA Name pane, in the Common Name for this CA text box, enter Cole-IssuingCA, and then select Next.
+![step_76.png](/active-directory-certificate-services/step_76.png)
+
+19.	In the Certificate Request pane, ensure that Save a certificate request to file on the target machine is selected, and then select Next.
+![step_77.png](/active-directory-certificate-services/step_77.png)
+
+20.	In the CA Database pane, select next.
+![step_78.png](/active-directory-certificate-services/step_78.png)
+
+21.	In the Confirmation pane, select Configure.
+![step_79.png](/active-directory-certificate-services/step_79.png)
+
+22.	In the Results pane, ignore the warning messages, and then Close.
+![step_80.png](/active-directory-certificate-services/step_80.png)
+
 
 
 
