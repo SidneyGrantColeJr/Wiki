@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T14:20:04.821Z
+date: 2025-05-27T14:39:15.607Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -888,6 +888,65 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 
 42.	Select Yes to restart the Certification Authority service.
 ![step_42.png](/active-directory-certificate-services/step_42.png)
+
+43.	In the Certification Authority console, expand the RootCA, right-click Revoked Certificates, point to All Tasks, and then select Publish.
+![step_43.png](/active-directory-certificate-services/step_43.png)
+
+44.	In the Publish CRL window, select Ok.
+![step_44.png](/active-directory-certificate-services/step_44.png)
+
+45.	Right-click the RootCA and then select Properties.
+![step_45.png](/active-directory-certificate-services/step_45.png)
+
+46.	In the RootCA Properties dialog box, select View Certificates.
+![step_46.png](/active-directory-certificate-services/step_46.png)
+
+47.	In the Certificate dialog box, select Details tab, and then select Copy to File.
+![step_47.png](/active-directory-certificate-services/step_47.png)
+
+48.	In the Certificate Export Wizard, in the Welcome pane, select Next.
+![step_48.png](/active-directory-certificate-services/step_48.png)
+
+49.	In the Export File Format pane, select DER encoded binary X.509 (.CER), and then select Next.
+![step_49.png](/active-directory-certificate-services/step_49.png)
+
+50.	In the File to Export pane, select Browse, in the File name text box, enter, ie. \\IntermediateCA\C$\RootCA.cer, and then select Enter and then Next.
+![step_50.png](/active-directory-certificate-services/step_50.png)
+
+51.	Select Finish, and then select Ok three times.
+![step_51.png](/active-directory-certificate-services/step_51.png)
+
+52.	Open a File Explorer window, browse to C:\Windows\System32\CertSrv\CerttEnroll.
+![step_52.png](/active-directory-certificate-services/step_52.png)
+
+53.	In the CertEnroll folder, select both files and copy.
+![step_53.png](/active-directory-certificate-services/step_53.png)
+
+54.	In the File Explore address bar, enter \\IntermediateCA\C$, and then select Enter. Navigate to the CertData Folder.
+![step_54.png](/active-directory-certificate-services/step_54.png)
+
+55.	Right-click and then paste the files copied earlier.
+
+56.	Close the File Explorer.
+
+**Create a Domain Name System record for an offline root CA**
+
+1.	On your Domain Controller, in Server Manager, select Tools, and then select DNS.
+![step_55.png](/active-directory-certificate-services/step_55.png)
+
+2.	Right-click the Domain under Forward Lookup Zones, and then select New Host (A or AAAA).
+![step_56.png](/active-directory-certificate-services/step_56.png)
+
+3.	In the new Host window, in the Name text box, enter CA-SRV1
+![step_57.png](/active-directory-certificate-services/step_57.png)
+
+4.	In the IP Address, enter the IP Address, select Add Host, and then select Ok, then Done.
+5.	Close DNS Manager.
+![step_58.png](/active-directory-certificate-services/step_58.png)
+
+
+
+
 
 
 
