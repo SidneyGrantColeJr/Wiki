@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T16:02:32.100Z
+date: 2025-05-27T16:04:09.669Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -32,6 +32,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 
 ## Overview
+<a href="#top">Back to top</a>
 - What is Windows Server 2025
 
 > Windows Server 2025 is the latest version of Microsoft's server operating system, officially released on November 1, 20-24 and part of the Windows NT Family.  It builds on previous versions with enhanced security, improved performance, and better cloud integration.
