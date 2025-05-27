@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T16:06:25.090Z
+date: 2025-05-27T16:07:40.537Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -780,6 +780,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 - BitLocker encryption
 <a href="#top">Back to top</a>
 ### Configure Active Directory Certificate Services
+<a href="#top">Back to top</a>
 > **Active Directory Certificate Services (AD CS)** is a Windows Server role that provides public key infrastructure (PKI) for issuing and managing digital certificates.  Certificates are used for secure communication, authentication, and encryption across networks.  Some Key Features of AD CS are the following:
 > - **Certification Authorities (CAs)** - Issue and manage certificates for users, computers, and services.
 > - **WebEnrollment** - Allows users to request certificates via a web browser.
@@ -1156,6 +1157,7 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 
 <a href="#top">Back to top</a>
 ### Configure Active Directory Federation Services
+<a href="#top">Back to top</a>
 
 > Active Directory Federation Services (AD FS) is a single sign-on (SSO) solution developed by Microsoft that allows users to access multiple applications across different organizations using a signle set of credentials.  It enables federated identity management, meaning users can authenticate once and gain access to various systems without needing to log in separately.
 > 
@@ -1194,6 +1196,7 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 
 
 ## Server Virtualization and Containers
+<a href="#top">Back to top</a>
 - Hyper-V overview and setup
 <a href="#top">Back to top</a>
 - Managing virtual machines
@@ -1201,6 +1204,7 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 - Windows Containers basics
 <a href="#top">Back to top</a>
 ## Automation and Scripting
+<a href="#top">Back to top</a>
 - PowerShell fundamentals
 <a href="#top">Back to top</a>
 - Common PowerShell commands for server administration
@@ -1208,6 +1212,7 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 - Scheduled Tasks and Automation workflows
 <a href="#top">Back to top</a>
 ## Backup and Disaster Recovery
+<a href="#top">Back to top</a>
 - Window Server Backup Features
 <a href="#top">Back to top</a>
 - Recovery options and best practices
@@ -1215,6 +1220,7 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 - Failover Clustering basics
 <a href="#top">Back to top</a>
 ## Monitoring and Performance
+<a href="#top">Back to top</a>
 - Performance monitoring tools
 <a href="#top">Back to top</a>
 - Event Viewer and logs
@@ -1222,6 +1228,7 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 - Resource optimization
 <a href="#top">Back to top</a>
 ## Troubleshooting and Maintenance
+<a href="#top">Back to top</a>
 - Common issues and resolution steps
 <a href="#top">Back to top</a>
 - Patch management and updates
