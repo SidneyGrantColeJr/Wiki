@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T12:48:47.715Z
+date: 2025-05-27T12:52:08.378Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -16,7 +16,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - [Active Directory AD DS](#active-directory-ad-ds)
 - [Networking Services](#networking-services)
 - [File and Storage Services](#file-and-storage-services)
-  - [Configure Basic Storage](##configure-basic-storage)
+  - Configure Basic Storage{#configure-basic-storage}
   - [Configure Dynamic Storage](##configure-dynamnic-storage)
   - [Create a Storage Pool](##create-a-storage-pool)
   - [Create a Storage Space](##create-a-storage-space)
