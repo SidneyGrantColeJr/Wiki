@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:08:03.312Z
+date: 2025-05-27T15:18:39.261Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1020,6 +1020,38 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 
 1.	On the Intermediate CA, Open File Explorer, browse to Local Disk C:
 ![step_82.png](/active-directory-certificate-services/step_82.png)
+
+2.	Right-click RootCA.cer, and then select Install Certificate.
+![step_83.png](/active-directory-certificate-services/step_83.png)
+
+3.	In the Certificate Import Wizard, select Local Machine, and then select Next.
+![step_84.png](/active-directory-certificate-services/step_84.png)
+
+4.	In the Certificate Store pane, select Place All certificates in the following store, and then select Browse.
+![step_85.png](/active-directory-certificate-services/step_85.png)
+
+5.	Select Trusted Root Certification Authorities, select Ok, select Next, and then select Finish.
+![step_86.png](/active-directory-certificate-services/step_86.png)
+
+6.	When the Certificate Import Wizard window appears, select Ok.
+![step_87.png](/active-directory-certificate-services/step_87.png)
+
+7.	In the File Explorer window, select the .crl and .crt files, right-click and copy both files.
+![step_88.png](/active-directory-certificate-services/step_88.png)
+
+8.	Open the inetpub folder, and then open the wwwroot folder.
+![step_89.png](/active-directory-certificate-services/step_89.png)
+
+9.	Create a new folder, and then name it CertData.
+![step_90.png](/active-directory-certificate-services/step_90.png)
+
+10.	Paste the two copied files in the CertData folder.
+![step_91.png](/active-directory-certificate-services/step_91.png)
+
+11.	Return to Local Disk C:
+
+
+
 
 
 
