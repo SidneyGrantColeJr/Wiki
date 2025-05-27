@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:18:39.261Z
+date: 2025-05-27T15:19:03.375Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1049,6 +1049,8 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 ![step_91.png](/active-directory-certificate-services/step_91.png)
 
 11.	Return to Local Disk C:
+![step_92.png](/active-directory-certificate-services/step_92.png)
+
 
 
 
