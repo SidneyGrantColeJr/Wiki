@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:57:59.829Z
+date: 2025-05-27T16:01:34.049Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -85,6 +85,8 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - Installation options (GUI, Core, Nano)
 - Post-installation configuration
 - Licensing and activation
+
+<a href="#top">Back to top</a>
 ## Active Directory (AD DS)
 - Introduction to AD DS
 - Installing and Configuring Domain Controllers
@@ -226,10 +228,12 @@ dateCreated: 2025-05-16T10:33:58.170Z
 > When you add a second Domain Controller to an Active Diectory environment, replication is automatic.  Active Directory used multi-master replication, meaning changes made on one Domain Controller are synchronized across all Domain Controllers in the Domain.  The Knowledge Consistency Checker dynamically creates replication links between the Domain Controllers, and the system determines the best replication paths based on the site links and the costs.  By default, replication occurs every 15 minutes within a site, but it can be changed to your needs. To force replication, you can use the command, repadmin.
 {.is-info}
 
-
+<a href="#top">Back to top</a>
 
 - Managing users, groups, and organizational units (OUs)
+<a href="#top">Back to top</a>
 - Group Policy Basics and Management
+<a href="#top">Back to top</a>
 ## Networking Services
 - IP Addressing and DHCP
 
@@ -243,7 +247,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 >           D    →     224-239
 >           E    →     240-255
 
-
+<a href="#top">Back to top</a>
 
 
 
@@ -256,12 +260,18 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 
 - DNS server setup and management
+<a href="#top">Back to top</a>
 - Network policy and access services (NPS)
+<a href="#top">Back to top</a>
 - Remote Access (VPN, Direct Access)
+<a href="#top">Back to top</a>
 ## File and Storage Services
 - File Server roles and features
+<a href="#top">Back to top</a>
 - NTFS and Permissions
+<a href="#top">Back to top</a>
 - Distributed Files System (DFS)
+<a href="#top">Back to top</a>
 - Storage Spaces and Disk Management
 > There are 5 Main Types of Storage Available on Windows Server 2025
 > 	- **Basic Disk:**  The Default in Disk Management, Classic MBR/GPT Partitions. No software RAID.
@@ -305,6 +315,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 ![comparison_chart.png](/storage/comparison_chart.png)
 
+<a href="#top">Back to top</a>
 ### Configure Dynamic Storage
 
 ![dynamic_disk_explained.png](/storage/dynammicdisk/dynamic_disk_explained.png)
@@ -337,6 +348,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 ![dynamic_storage_volume_options.png](/storage/dynamic_storage_volume_options.png)
 
+<a href="#top">Back to top</a>
 ### Configure a Storage Pool
 1. In Server Manager, select File and Storage Services.
 ![step_1.png](/storage/storagepool/step_1.png)
@@ -361,6 +373,7 @@ dateCreated: 2025-05-16T10:33:58.170Z
 
 Or you can type Manage Storage Spaces in the Search bar, and select Add a new Storage Pool.
 
+<a href="#top">Back to top</a>
 ### Configure a Storage Space
 
 1. In Server Manager,in the File and Storage Services, select Storage Pools and then right click the Storage Pool, and select New Virtual Disk.
@@ -395,6 +408,7 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 
 > Note:  You must have more than one virtual disk to setup a storage pool.
 
+<a href="#top">Back to top</a>
 ### Configure iSCSI Storage with MPIO
 > iSCSI stands for Internet Small Computer System Interface.  iSCSI Storage is a way to share block-level storage over a standard IP Network. MPIO stands for Multipath I/O.  MPIO is a storage-fault-tolerance and load-balance feature that lets an operating system use two or more physical paths to reach the same block-storage device, in essence it offers redundancy.
 {.is-info}
@@ -745,12 +759,16 @@ Or you can type Manage Storage Spaces in the Search bar, and select Add a new St
 6.	Enter the following, Remove-WindowsFeature FS-SMB1
 ![nfs_share_-_18.png](/configure-iscsi-storage/nfs_share_-_18.png){.align-left}
 
-
+<a href="#top">Back to top</a>
 ## Server Security
 - Security baselines and hardening
+<a href="#top">Back to top</a>
 - Windows Firewall Configuration
+<a href="#top">Back to top</a>
 - Security auditng and monitoring
+<a href="#top">Back to top</a>
 - BitLocker encryption
+<a href="#top">Back to top</a>
 ### Configure Active Directory Certificate Services
 > **Active Directory Certificate Services (AD CS)** is a Windows Server role that provides public key infrastructure (PKI) for issuing and managing digital certificates.  Certificates are used for secure communication, authentication, and encryption across networks.  Some Key Features of AD CS are the following:
 > - **Certification Authorities (CAs)** - Issue and manage certificates for users, computers, and services.
@@ -1126,6 +1144,7 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 8.	When the Certificate Import Wizard window appears, select Ok.
 9.	Close the Group Policy Management Editor and the Group Management Console.
 
+<a href="#top">Back to top</a>
 ### Configure Active Directory Federation Services
 
 > Active Directory Federation Services (AD FS) is a single sign-on (SSO) solution developed by Microsoft that allows users to access multiple applications across different organizations using a signle set of credentials.  It enables federated identity management, meaning users can authenticate once and gain access to various systems without needing to log in separately.
@@ -1159,15 +1178,18 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 
 
 
-
+<a href="#top">Back to top</a>
 
 
 
 
 ## Server Virtualization and Containers
 - Hyper-V overview and setup
+<a href="#top">Back to top</a>
 - Managing virtual machines
+<a href="#top">Back to top</a>
 - Windows Containers basics
+<a href="#top">Back to top</a>
 ## Automation and Scripting
 - PowerShell fundamentals
 - Common PowerShell commands for server administration
