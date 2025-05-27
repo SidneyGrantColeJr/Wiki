@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T13:02:20.206Z
+date: 2025-05-27T13:04:48.814Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -16,11 +16,11 @@ dateCreated: 2025-05-16T10:33:58.170Z
 - [Active Directory AD DS](#active-directory-ad-ds)
 - [Networking Services](#networking-services)
 - [File and Storage Services](#file-and-storage-services)
-  - [Configure Basic Storage](##configure-basic-storage)
-  - [Configure Dynamic Storage](##configure-dynamnic-storage)
-  - [Configure a Storage Pool](##configure-a-storage-pool)
-  - [Configure a Storage Space](##configure-a-storage-space)
-  - [Configure iSCSI Storage with MPIO](##configure-iscsi-storage-with-mpio)
+- [Configure Basic Storage](#configure-basic-storage)
+- [Configure Dynamic Storage](#configure-dynamnic-storage)
+- [Configure a Storage Pool](#configure-a-storage-pool)
+- [Configure a Storage Space](#configure-a-storage-space)
+- [Configure iSCSI Storage with MPIO](#configure-iscsi-storage-with-mpio)
 - [Server Security](#server-security)
 - [Server Virtualization and Containers](#server-virtualization-and-containers)
 - [Automation and Scripting](#automation-and-scripting)
