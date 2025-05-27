@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:24:40.800Z
+date: 2025-05-27T15:26:48.719Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1066,6 +1066,16 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 ![step_96.png](/active-directory-certificate-services/step_96.png)
 
 17.	In the Open Request File window, navigate to Local Disk C:, select the .req file and then select Open.
+![step_97.png](/active-directory-certificate-services/step_97.png)
+
+18.	In the Certification Authority, select Pending Requests container, right-click and then select Refresh.
+![step_98.png](/active-directory-certificate-services/step_98.png)
+
+19.	In the details pane, right-click, point to All Tasks, and then select Issue.
+![step_99.png](/active-directory-certificate-services/step_99.png)
+
+20.	In the Certification Authority pane, select the Details tab, and then select Copy to File.
+
 
 
 
