@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:19:03.375Z
+date: 2025-05-27T15:24:40.800Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1051,7 +1051,21 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 11.	Return to Local Disk C:
 ![step_92.png](/active-directory-certificate-services/step_92.png)
 
+12.	Right-click .req file and copy.
+![step_93.png](/active-directory-certificate-services/step_93.png)
 
+13.	In the File Explorer Address bar, enter \\(Your Offline Root Server Name, and then Enter.
+![step_94.png](/active-directory-certificate-services/step_94.png)
+
+14.	In the File Explorer window, right-click and paste the files.
+![step_95.png](/active-directory-certificate-services/step_95.png)
+
+15.	Switch to the CA Server.
+
+16.	In the Certificate Authority console, right-click the RootCA, point to All Tasks, and select Submit new request.
+![step_96.png](/active-directory-certificate-services/step_96.png)
+
+17.	In the Open Request File window, navigate to Local Disk C:, select the .req file and then select Open.
 
 
 
