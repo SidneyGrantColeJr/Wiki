@@ -2,7 +2,7 @@
 title: Windows Server 2025 Administration
 description: 
 published: true
-date: 2025-05-27T15:40:25.232Z
+date: 2025-05-27T15:46:49.606Z
 tags: windows server
 editor: markdown
 dateCreated: 2025-05-16T10:33:58.170Z
@@ -1127,6 +1127,17 @@ Include in the CRLs. Clients use this to find Delta CRL locations.
 9.	Close the Group Policy Management Editor and the Group Management Console.
 
 ### Configure Active Directory Federation Services
+
+> Active Directory Federation Services (AD FS) is a single sign-on (SSO) solution developed by Microsoft that allows users to access multiple applications across different organizations using a signle set of credentials.  It enables federated identity management, meaning users can authenticate once and gain access to various systems without needing to log in separately.
+> 
+> Key Features of AD FS:
+> - Claimes-Based Authentication - Uses security tokens with claims about a user's identity instead of a traditional username/password authentication.
+> - Federated Trust - Establishes trust between different organizations, allowing users to access external applications securely.
+> - Integration with Active Directory - Works with Active Directory Domain Services (AD DS) to authenticate users.
+> - Support for SAML & OAuth - Enable authentication for web applications using industry-standard protocols.
+> - Remote Access - Allows users to securely access AD-integrated applications even when working remotely.
+{.is-info}
+
 
 
 
